@@ -1,4 +1,4 @@
-const CACHE_NAME = 'postvault-v2';
+const CACHE_NAME = 'postvault-v3';
 const ASSETS = [
   './',
   './index.html',
