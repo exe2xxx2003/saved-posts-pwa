@@ -1,11 +1,12 @@
-// Auto-synced snapshot from Google Sheet: 存貼文 (1nMaoM5NW3zppcaALRp9Rj77VvI6hDIdrD7nse7Gh9I0)
+// Synced from Google Sheet 存貼文 (34 complete posts)
 window.INITIAL_POSTS = [
     {
         "id":  1,
+        "rowNumber":  2,
         "time":  "11/15/2026",
         "url":  "https://www.instagram.com/reel/DYUNkG8y_yu/",
         "source":  "Instagram",
-        "author":  "",
+        "author":  "@charlotte0901",
         "title":  "一年內測試上百款抹茶的心得與市售知名抹茶品牌初步介紹",
         "summary":  "📋 完整重點整理 - 作者實測背景：作者（charlotte0901 / Charlotte Chen，抹茶店蝦老闆系列）分享自己一年內測試超過上百款抹茶，並實際走訪各產區茶園與工廠學習。 - 抹茶風味變化原因：即使各款抹茶的製作方式相近，但因生長環境、生產條件不同，再加上茶師的拼配工藝，就能呈現出上百種不同的風味面貌。 - 貼文與影片主題：本篇 Instagram Reel 旨在先簡單介紹市場上廣為人知的抹茶品牌，作者亦表示還有許多值得嘗試的品牌，未來有機會將再深入分享不同產區與茶樹品種的特色（註：本次原始擷取資料僅含貼文文案與影片封面縮圖連結，未包含影片內文與畫面細節）。 - 留言區交流現況：留言區尚無作者補充或網友提供具體店家、價格等額外資訊；多數網友留言表達剛入門想入手抹茶或為規劃抹茶之旅追蹤，另有網友提問北海道與福岡旅遊推薦購買的抹茶粉、台灣購買管道，以及適合用於烘焙甜點的抹茶粉建議。 💡 核心結論 抹茶風味受到產區環境、生產條件與茶師拼配影響而變化萬千，建議新手先從市面上廣為人知的品牌入門嘗試，再逐步探索不同產區與樹種特色，找到最適合自己口味的抹茶。",
         "conclusion":  "抹茶風味受到產區環境、生產條件與茶師拼配影響而變化萬千，建議新手先從市面上廣為人知的品牌入門嘗試，再逐步探索不同產區與樹種特色，找到最適合自己口味的抹茶。",
@@ -23,7 +24,11 @@ window.INITIAL_POSTS = [
                        "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/775243806_18558934222076165_3996101851708847304_n.jpg?stp=dst-jpg_e35_s640x640_tt6\u0026_nc_cat=106\u0026_nc_map=urlgen_bucketless\u0026ccb=7-5\u0026_nc_sid=18de74\u0026efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D\u0026_nc_ohc=X3CGdGmBtGQQ7kNvwE2ffVj\u0026_nc_oc=AdrHkoy0Qm9y-Ghg7q7GYD_uVuG-V1X0i89quN1TF6lWc5WXckiWjNMsjzwgfZ6ywv_kf4KlznTmSx33gQKQ4EbU\u0026_nc_zt=23\u0026_nc_ht=scontent-atl3-2.cdninstagram.com\u0026_nc_gid=EnyrYwqIJ3BZfe5kzGOHhg\u0026_nc_ss=7b689\u0026_nc_ct=RQosPBUKFQQAAAA\u0026oh=00_AQTXBBAyT7tW7uvCq8JXA31Re-HIX61fL_P1zp93U6nsQQ\u0026oe=6AFF20B1"
                    ],
         "keywords":  [
-
+                         "抹茶",
+                         "抹茶品牌",
+                         "抹茶控",
+                         "茶園產區",
+                         "烘焙抹茶"
                      ],
         "places":  [
 
@@ -31,6 +36,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  2,
+        "rowNumber":  3,
         "time":  "11/15/2026",
         "url":  "https://www.threads.com/share/BAH2g_MpaC",
         "source":  "Threads",
@@ -40,7 +46,7 @@ window.INITIAL_POSTS = [
         "conclusion":  "京都楓葉季有許多採特別公開制或夜間點燈的精緻寺院庭園（如醍醐寺、平等院夜楓、直指庵、白龍園等），規劃多日賞楓行程時，出發前應先確認各景點當年度的開放情形，並依自身腳力與步調適度取捨，避免過度密集造成審美疲勞。",
         "category":  "旅遊景點",
         "city":  "京都",
-        "address":  "",
+        "address":  "📍 醍醐寺：日本京都市伏見區\n📍 平等院：日本京都府宇治市\n📍 直指庵：日本京都市右京區\n📍 白龍園：日本京都市左京區\n📍 南禪寺 天授庵：日本京都市左京區\n📍 東寺：日本京都市南區",
         "status":  "完成（含 4 張圖）",
         "driveId":  "1zhSDbj4puMkQBaALs4X-fjh-duuep72Q",
         "coverUrl":  "https://drive.google.com/thumbnail?id=1zhSDbj4puMkQBaALs4X-fjh-duuep72Q\u0026sz=w800",
@@ -52,14 +58,48 @@ window.INITIAL_POSTS = [
                        "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/902113507_17967567789237020_194997068464384013_n.jpg?stp=dst-jpg_e35_tt6\u0026_nc_cat=106\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAzMDcxNjQ4OTY5ODEzNjA4Mw%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjE1OS5zZHIucmVndWxhcl9waG90by5DMyJ9\u0026_nc_ohc=fMu2x6uZgWAQ7kNvwE8yKpS\u0026_nc_oc=Adpr7EgpgTQQDGwENtQDedNdmcfeYnYnMJiWwTIu3l7SgNfTGFZBx2rjqe7szQB4rtBC1sJPEyA3EDnuC4BejHpk\u0026_nc_zt=23\u0026_nc_ht=scontent-sea5-2.cdninstagram.com\u0026_nc_gid=-kDUh9e3HhaInaFzJThHHA\u0026_nc_ss=7b289\u0026_nc_ct=RQosPBUIFQIlBAAAAA\u0026oh=00_AQSfHjvlKMh4plqeguyJEMBdhrriX6swms95KyuMc_ZIuQ\u0026oe=6AFF2A8C"
                    ],
         "keywords":  [
-
+                         "京都賞楓",
+                         "夜楓",
+                         "醍醐寺",
+                         "平等院",
+                         "京都自由行"
                      ],
         "places":  [
-
+                       {
+                           "name":  "醍醐寺",
+                           "address":  "日本京都市伏見區",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E9%86%8D%E9%86%90%E5%AF%BA%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E4%BC%8F%E8%A6%8B%E5%8D%80"
+                       },
+                       {
+                           "name":  "平等院",
+                           "address":  "日本京都府宇治市",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%B9%B3%E7%AD%89%E9%99%A2%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%BA%9C%E5%AE%87%E6%B2%BB%E5%B8%82"
+                       },
+                       {
+                           "name":  "直指庵",
+                           "address":  "日本京都市右京區",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E7%9B%B4%E6%8C%87%E5%BA%B5%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8F%B3%E4%BA%AC%E5%8D%80"
+                       },
+                       {
+                           "name":  "白龍園",
+                           "address":  "日本京都市左京區",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E7%99%BD%E9%BE%8D%E5%9C%92%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E5%B7%A6%E4%BA%AC%E5%8D%80"
+                       },
+                       {
+                           "name":  "南禪寺 天授庵",
+                           "address":  "日本京都市左京區",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%8D%97%E7%A6%AA%E5%AF%BA%20%E5%A4%A9%E6%8E%88%E5%BA%B5%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E5%B7%A6%E4%BA%AC%E5%8D%80"
+                       },
+                       {
+                           "name":  "東寺",
+                           "address":  "日本京都市南區",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E6%9D%B1%E5%AF%BA%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8D%97%E5%8D%80"
+                       }
                    ]
     },
     {
         "id":  3,
+        "rowNumber":  4,
         "time":  "11/15/2026",
         "url":  "https://www.threads.com/share/BAUG0_rmRZ",
         "source":  "Threads",
@@ -69,7 +109,7 @@ window.INITIAL_POSTS = [
         "conclusion":  "京都嵐山與小倉山在秋季會展現滿山紅黃交織的壯麗楓紅景致，是規劃京都秋季賞楓旅遊的代表性景點。",
         "category":  "旅遊景點",
         "city":  "京都",
-        "address":  "",
+        "address":  "📍 嵐山：日本京都市右京區嵐山\n📍 小倉山：日本京都市右京區嵯峨",
         "status":  "完成（含 1 張圖）",
         "driveId":  "1gD4jnTvuWZ9z0Cab3177rotaPb5LwtOV",
         "coverUrl":  "https://drive.google.com/thumbnail?id=1gD4jnTvuWZ9z0Cab3177rotaPb5LwtOV\u0026sz=w800",
@@ -78,18 +118,32 @@ window.INITIAL_POSTS = [
                        "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/861704847_18109659443630826_1100208086315903605_n.jpg?stp=dst-jpg_e15_tt6\u0026_nc_cat=100\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAyNTA4NTE3NDg0NDI3ODMwNzE4MTA5NjU5NDM3NjMwODI2.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D\u0026_nc_ohc=PdyYJlzA_RwQ7kNvwFKe59k\u0026_nc_oc=AdorHj7n40iMM7pL_oNny-1lVVHahj8T1aBhCr0p78g8e0lJ6ieTCIzagTqsN7FtdGXbsrJMZALbym1CrWzMx421\u0026_nc_zt=23\u0026_nc_ht=scontent-atl3-1.cdninstagram.com\u0026_nc_gid=afHcB0mRHrmraIC0Tju8fA\u0026_nc_ss=7b289\u0026_nc_ct=RQosPBUIFQwlBAAAAA\u0026oh=00_AQQiciD6SAbLus3qhuQizlXWq0kVv4fRKt70NxeQ4R5Xeg\u0026oe=6AFF01C0"
                    ],
         "keywords":  [
-
+                         "京都賞楓",
+                         "嵐山",
+                         "小倉山",
+                         "紅葉絕景",
+                         "京都景點"
                      ],
         "places":  [
-
+                       {
+                           "name":  "嵐山",
+                           "address":  "日本京都市右京區嵐山",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%B5%90%E5%B1%B1%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8F%B3%E4%BA%AC%E5%8D%80%E5%B5%90%E5%B1%B1"
+                       },
+                       {
+                           "name":  "小倉山",
+                           "address":  "日本京都市右京區嵯峨",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%B0%8F%E5%80%89%E5%B1%B1%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8F%B3%E4%BA%AC%E5%8D%80%E5%B5%AF%E5%B3%A8"
+                       }
                    ]
     },
     {
         "id":  4,
+        "rowNumber":  5,
         "time":  "11/15/2026",
         "url":  "https://www.threads.com/share/BAgQPE8ZdR",
         "source":  "Threads",
-        "author":  "",
+        "author":  "未知",
         "title":  "新版 Claude Opus 5.5 的官方建議用法與提示詞習慣調整指南",
         "summary":  "📋 完整重點整理\n- 資訊來源與版本背景：整理自 Anthropic 11/12 官方文章與 The Decoder 報導（貼文圖片標註為 2026.11.15 AI 新聞速報），目前 Claude Opus 5.5 已成為 Pro、Max、Ultra、Team 付費方案的預設模型。\n- 思考習慣（不用再寫 think hard）：過去常加上「think hard」（用力想），現在直接講需求即可；新版模型會自己決定需要思考多少，拿掉後回覆能更快開始，且品質沒有明顯變差。\n- 思考強度設定（先開中等 Medium）：建議從「中等」強度開始設定，Anthropic 官方指出新版開中等的表現已追平或超過上一代開高（High）的水準。\n- 結果不理想時的調整順序：以前做不好會馬上換模型，現在建議先調高思考強度，真的不行再考慮更換模型。\n- 交代任務方式（第一句講完）：不要再一步一步慢慢給指示，直接在第一句話講清楚目標是什麼、要交出什麼成品，以及什麼時候該停下來詢問使用者。\n- 數據與資料輸入：不用自己把數字重打一遍，直接附上圖表檔案即可。\n- 產出方式（直接要成品）：不用先要求生成大綱，直接要求產出成品檔案（例如直接下指令「幫我做成報表」）。\n- 補充資訊：本篇貼文未擷取到下方留言區內容。\n\n💡 核心結論\n使用新版 Claude Opus 5.5 時應捨棄過去繁瑣的提示習慣，將強度預設為「中等」，並在一開始就附上圖表、直接講明目標與成品需求，既能加快回覆速度也能維持高品質輸出。",
         "conclusion":  "使用新版 Claude Opus 5.5 時應捨棄過去繁瑣的提示習慣，將強度預設為「中等」，並在一開始就附上圖表、直接講明目標與成品需求，既能加快回覆速度也能維持高品質輸出。",
@@ -105,7 +159,11 @@ window.INITIAL_POSTS = [
                        "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/905597761_18138102517712664_3274926142207068873_n.jpg?stp=dst-jpg_e35_tt6\u0026_nc_cat=101\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAzMDU2OTU0NTAzMDg1MzMxOQ%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9\u0026_nc_ohc=-ZWZuIOfbMIQ7kNvwHyfjuR\u0026_nc_oc=AdrsN0QSBbylEHr8yX3VnCkU8iWp72xvHb24IUr1HJEw4X0xeY9u3MQI2hjnC0tyqO0m270CTdTKVChz_cHLsH2Q\u0026_nc_zt=23\u0026_nc_ht=scontent-ord5-2.cdninstagram.com\u0026_nc_gid=bRGt8LYbu62UauKJoSL_yA\u0026_nc_ss=7b289\u0026_nc_ct=RQosPBUIFQIlBAAAAA\u0026oh=00_AQReJgM35AWudLrKJqtXJCc7aKywIcQuhIAzYagnFYtjMg\u0026oe=6AFF196A"
                    ],
         "keywords":  [
-
+                         "Claude",
+                         "Opus 5.5",
+                         "提示詞指南",
+                         "Anthropic",
+                         "AI技巧"
                      ],
         "places":  [
 
@@ -113,6 +171,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  5,
+        "rowNumber":  6,
         "time":  "11/15/2026",
         "url":  "https://www.instagram.com/p/DXJzkLEkpn5/",
         "source":  "Instagram",
@@ -122,7 +181,7 @@ window.INITIAL_POSTS = [
         "conclusion":  "吉野山憑藉三萬株櫻花與四區接力綻放的山勢奇景成為此生必看絕景，建議旅客掌握 4 月上旬至中旬花期並留意即時花況，於上午 9 點前著輕便運動鞋入山，並安排停留至夜間欣賞點燈。",
         "category":  "旅遊景點",
         "city":  "奈良",
-        "address":  "",
+        "address":  "📍 吉野山：日本奈良縣吉野郡吉野町\n📍 金峯山寺：日本奈良縣吉野郡吉野町吉野山\n📍 吉水神社：日本奈良縣吉野郡吉野町吉野山\n📍 花矢倉展望台：日本奈良縣吉野郡吉野町吉野山",
         "status":  "完成（含 4 張圖）",
         "driveId":  "1M0EUaiPoq2-H1Sm1Im-jQdbvKkdLy3OE",
         "coverUrl":  "https://drive.google.com/thumbnail?id=1M0EUaiPoq2-H1Sm1Im-jQdbvKkdLy3OE\u0026sz=w800",
@@ -134,14 +193,38 @@ window.INITIAL_POSTS = [
                        "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/782144423_18620034553022613_8741689714382370826_n.jpg?stp=dst-jpg_e35_s640x640_tt6\u0026_nc_cat=111\u0026_nc_map=urlgen_bucketless\u0026ccb=7-5\u0026_nc_sid=18de74\u0026efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9\u0026_nc_ohc=vnVY5IXFZygQ7kNvwFahPCh\u0026_nc_oc=AdpRlSpj-JQO9K3gytRrjVZK9JGCHa8QmPEj4eOa3egVnYrB4bUoPslkI2BpfYvLHlbcVmvwconakmLxNh6_1KoD\u0026_nc_zt=23\u0026_nc_ht=scontent-atl3-2.cdninstagram.com\u0026_nc_gid=8ehEMoJ0K3xRvLVcEVh8fg\u0026_nc_ss=7b689\u0026_nc_ct=RQosPBUKFQIAAAA\u0026oh=00_AQRAzxh0DKB0AGJPvVi7czALgPIQhU6ZWj-hZOgbm3zTfg\u0026oe=6AFF3CC8"
                    ],
         "keywords":  [
-
+                         "奈良賞櫻",
+                         "吉野山",
+                         "一目千本",
+                         "金峯山寺",
+                         "日本世界遺產"
                      ],
         "places":  [
-
+                       {
+                           "name":  "吉野山",
+                           "address":  "日本奈良縣吉野郡吉野町",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%90%89%E9%87%8E%E5%B1%B1%20%E6%97%A5%E6%9C%AC%E5%A5%88%E8%89%AF%E7%B8%A3%E5%90%89%E9%87%8E%E9%83%A1%E5%90%89%E9%87%8E%E7%94%BA"
+                       },
+                       {
+                           "name":  "金峯山寺",
+                           "address":  "日本奈良縣吉野郡吉野町吉野山",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E9%87%91%E5%B3%AF%E5%B1%B1%E5%AF%BA%20%E6%97%A5%E6%9C%AC%E5%A5%88%E8%89%AF%E7%B8%A3%E5%90%89%E9%87%8E%E9%83%A1%E5%90%89%E9%87%8E%E7%94%BA%E5%90%89%E9%87%8E%E5%B1%B1"
+                       },
+                       {
+                           "name":  "吉水神社",
+                           "address":  "日本奈良縣吉野郡吉野町吉野山",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%90%89%E6%B0%B4%E7%A5%9E%E7%A4%BE%20%E6%97%A5%E6%9C%AC%E5%A5%88%E8%89%AF%E7%B8%A3%E5%90%89%E9%87%8E%E9%83%A1%E5%90%89%E9%87%8E%E7%94%BA%E5%90%89%E9%87%8E%E5%B1%B1"
+                       },
+                       {
+                           "name":  "花矢倉展望台",
+                           "address":  "日本奈良縣吉野郡吉野町吉野山",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E8%8A%B1%E7%9F%A2%E5%80%89%E5%B1%95%E6%9C%9B%E5%8F%B0%20%E6%97%A5%E6%9C%AC%E5%A5%88%E8%89%AF%E7%B8%A3%E5%90%89%E9%87%8E%E9%83%A1%E5%90%89%E9%87%8E%E7%94%BA%E5%90%89%E9%87%8E%E5%B1%B1"
+                       }
                    ]
     },
     {
         "id":  6,
+        "rowNumber":  7,
         "time":  "11/15/2026",
         "url":  "https://www.instagram.com/p/DaH8YYvkZev/",
         "source":  "Instagram",
@@ -150,8 +233,8 @@ window.INITIAL_POSTS = [
         "summary":  "📋 完整重點整理\n- 行程與路線背景：作者（@geo_mystery 用地理眼看世界）於去年 10 月前往日本中部踏上「表銀座縱走」經典登山路線，目標包含槍岳與燕岳。\n- 住宿與氣候體驗：起登第一天天氣不佳，略顯狼狽地入住「燕山莊」，但第二天放晴後欣賞到秋意點綴下的燕岳與標誌性花崗岩山稜。\n- 燕岳基本介紹（山岳 QA 圖卡）：\n  1. 稱呼與稱號：MT. TSUBAKURO，被譽為日本北阿爾卑斯的「雲上博物館」。\n  2. 所屬山脈：飛驒山脈（北阿爾卑斯）。\n  3. 海拔高度：2763 公尺。\n  4. 地質構造：山體由花崗岩構成。\n  5. 命名由來：據說春季時山上的殘雪形狀宛如燕子，因而得名「燕岳」。\n- 周邊地形與地標分布（Google Earth 立體地形圖標示）：\n  1. 沿線山屋與據點：合戰小屋、燕山莊。\n  2. 周邊與遠眺山岳：東澤岳、唐澤岳、烏帽子岳、三岳、蓮華岳、針之木岳，遠方可見立山與劍岳。\n  3. 鄰近水系設施：高瀨川、高瀨水壩。\n- 留言區資訊：本次擷取頁面未包含留言區內容。\n\n💡 核心結論\n燕岳是日本表銀座縱走路線上極具代表性的花崗岩山岳，推薦計畫在夏秋前往日本北阿爾卑斯登山的旅人先收藏這份地形與地質基礎知識，以便更深入認識這座「雲上博物館」。",
         "conclusion":  "燕岳是日本表銀座縱走路線上極具代表性的花崗岩山岳，推薦計畫在夏秋前往日本北阿爾卑斯登山的旅人先收藏這份地形與地質基礎知識，以便更深入認識這座「雲上博物館」。",
         "category":  "登山戶外",
-        "city":  "",
-        "address":  "",
+        "city":  "長野",
+        "address":  "📍 燕岳：日本長野縣安曇野市（飛驒山脈）\n📍 燕山莊：日本長野縣安曇野市穂高牧\n📍 合戰小屋：日本長野縣安曇野市表銀座縱走線",
         "status":  "完成（含 4 張圖）",
         "driveId":  "1N6bX1s1T-exO6XZCbuMjybOk12Aja2L-",
         "coverUrl":  "https://drive.google.com/thumbnail?id=1N6bX1s1T-exO6XZCbuMjybOk12Aja2L-\u0026sz=w800",
@@ -163,18 +246,37 @@ window.INITIAL_POSTS = [
                        "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/833752724_18386151397226944_5371254515675390908_n.jpg?stp=dst-jpg_e35_p240x240_sh2.08_tt6\u0026_nc_cat=108\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAwMTEzNDE0OTc4MzQ4MDA5NA%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjUwMC5zZHIucmVndWxhcl9waG90by5DMyJ9\u0026_nc_ohc=l1gHuD0j1N0Q7kNvwEB-WFE\u0026_nc_oc=AdpriAkn1UvT_PlR6r9S2ApdUaZKuN4U7cmPqVKH6Dzy2Vl7L6ikBoE2zNYHuErGgn9sxl6XBCfGFnquOT5haQeO\u0026_nc_zt=23\u0026_nc_ht=scontent-atl3-1.cdninstagram.com\u0026_nc_gid=cPkCXy9DMdpHFN_iLxgdQA\u0026_nc_ss=7b689\u0026_nc_ct=RQosPBUIFQIlBAAAAA\u0026oh=00_AQRsi0yn6Gx2asIe_vbkdJTficBL1vdf2pSYqUYuRd0L2A\u0026oe=6AFF409C"
                    ],
         "keywords":  [
-
+                         "燕岳",
+                         "表銀座縱走",
+                         "北阿爾卑斯",
+                         "燕山莊",
+                         "日本百名山"
                      ],
         "places":  [
-
+                       {
+                           "name":  "燕岳",
+                           "address":  "日本長野縣安曇野市（飛驒山脈）",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E7%87%95%E5%B2%B3%20%E6%97%A5%E6%9C%AC%E9%95%B7%E9%87%8E%E7%B8%A3%E5%AE%89%E6%9B%87%E9%87%8E%E5%B8%82%EF%BC%88%E9%A3%9B%E9%A9%92%E5%B1%B1%E8%84%88%EF%BC%89"
+                       },
+                       {
+                           "name":  "燕山莊",
+                           "address":  "日本長野縣安曇野市穂高牧",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E7%87%95%E5%B1%B1%E8%8E%8A%20%E6%97%A5%E6%9C%AC%E9%95%B7%E9%87%8E%E7%B8%A3%E5%AE%89%E6%9B%87%E9%87%8E%E5%B8%82%E7%A9%82%E9%AB%98%E7%89%A7"
+                       },
+                       {
+                           "name":  "合戰小屋",
+                           "address":  "日本長野縣安曇野市表銀座縱走線",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%90%88%E6%88%B0%E5%B0%8F%E5%B1%8B%20%E6%97%A5%E6%9C%AC%E9%95%B7%E9%87%8E%E7%B8%A3%E5%AE%89%E6%9B%87%E9%87%8E%E5%B8%82%E8%A1%A8%E9%8A%80%E5%BA%A7%E7%B8%B1%E8%B5%B0%E7%B7%9A"
+                       }
                    ]
     },
     {
         "id":  7,
+        "rowNumber":  8,
         "time":  "11/15/2026",
         "url":  "https://www.threads.com/share/BAWDOKbLGe",
         "source":  "Threads",
-        "author":  "",
+        "author":  "未知",
         "title":  "Google Chrome團隊開源Modern Web Guidance現代網頁開發指南，助Claude Code與Codex等AI寫網頁前先查官方規範並提升測試通過率",
         "summary":  "📋 完整重點整理\n- 工具簡介與來源：Google Chrome 團隊推出開源技能包「Modern Web Guidance」（官方 GitHub：github.com/GoogleChrome/modern-web-guidance），收錄 200+ 指南與使用情境（來源：Google Chrome 官方 1.0 公告 / GitHub，2026.11.13 查核）。\n- 核心用途：讓 Claude Code、Codex 等 AI 開發工具在撰寫網頁前，先查詢官方整理好的現代網頁做法。\n- 運作工作流程（官方採分步查詢，非一次將所有內容塞入）：\n  1. 搜尋：依照本次要開發的功能，尋找相關指南。\n  2. 讀取：取得正確寫法、容易踩的坑（避雷點），以及瀏覽器支援資訊。\n  3. 實作：依專案條件採用，並清楚交代使用了哪些指南。\n- 測試通過率變化（採 README 的 11/8 官方自測紀錄，比較未使用指南與使用指南的表現）：\n  - Antigravity CLI（Gemini 4 Argon）：58% → 94%\n  - Codex CLI（GPT-6.1 Sol）：54% → 82%\n  - Claude Code（Opus 5.5）：57% → 88%\n- 測試數據注意事項：原貼文提到的特定配對未在該次查到的官方快照找到；上述數據比較的是官方測試檢查項目的通過率，而非整個網站一次做好的機率。由於不同工具的題目與檢查數略有差異，此數據僅供觀察各自有無使用指南的變化，不作為模型名次排行。\n- 擷取範圍說明：原貼文為 9 頁圖卡並提及安裝方式，惟本次提供的圖片僅包含第 1 至第 3 頁，且未附帶留言區內容。\n\n💡 核心結論\nGoogle Chrome 開源的 Modern Web Guidance 讓 AI 在寫網頁前先查詢並遵循官方現代網頁開發指南，能有效減少踩坑並顯著提升各項檢查通過率。建議使用 Claude Code、Codex CLI 或 Antigravity CLI 進行網頁開發時搭配此技能包，以確保程式碼符合現代規範與瀏覽器支援要求。",
         "conclusion":  "Google Chrome 開源的 Modern Web Guidance 讓 AI 在寫網頁前先查詢並遵循官方現代網頁開發指南，能有效減少踩坑並顯著提升各項檢查通過率。建議使用 Claude Code、Codex CLI 或 Antigravity CLI 進行網頁開發時搭配此技能包，以確保程式碼符合現代規範與瀏覽器支援要求。",
@@ -192,7 +294,11 @@ window.INITIAL_POSTS = [
                        "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/898652791_17997846348103368_3560125536236543885_n.jpg?stp=dst-jpg_e35_tt6\u0026_nc_cat=111\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAyOTUzMDI3ODA4ODI1MTcyMA%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMiJ9\u0026_nc_ohc=p2YwLAPf8sIQ7kNvwF8hnEu\u0026_nc_oc=Adp2zUA5JGjd-qiB19It9pH6ao1lnAMt3OmXA-7ToqIjuXBlsozRLn__edJtvLQYSjgT5tm3xBr3lAwqIFyeLCLa\u0026_nc_zt=23\u0026_nc_ht=scontent-atl3-1.cdninstagram.com\u0026_nc_gid=OTete1SLPc6-lrl4FO0mXg\u0026_nc_ss=7b289\u0026_nc_ct=RQgsPBUIFQIlBAAAAA\u0026oh=00_AQSf9PKfg7j9nihvocEe87NwU-KVab-Epn6bBCV0_ejJrw\u0026oe=6AFF7092"
                    ],
         "keywords":  [
-
+                         "Modern Web Guidance",
+                         "Chrome開發",
+                         "Claude Code",
+                         "Antigravity",
+                         "前端規範"
                      ],
         "places":  [
 
@@ -200,10 +306,11 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  8,
+        "rowNumber":  9,
         "time":  "11/16/2026",
         "url":  "https://www.threads.com/share/BASg3Ej_In",
         "source":  "Threads",
-        "author":  "琪琪百貨✈️玩樂代購 💕 (@chichi_buybuybuy)",
+        "author":  "@chichi_buybuybuy",
         "title":  "日本茅乃舍高湯包全系列選購攻略",
         "summary":  "📋 完整重點整理 - 品牌與基本煮法：日本茅乃舍高湯包主打純天然食材、無化學調味料與無防腐劑，呈粉末狀，主要有兩種煮法：1. 一包高湯粉加水煮沸成高湯（想要較濃郁可用兩包）；2. 直接把粉末倒在料理中調味，適用於煮湯、煮麵、煮鍋、炒菜、燉飯、炊飯等各式料理。 - 柴魚昆布高湯包（經典原味）：嚴選烤飛魚、鰹魚乾片、北海道真昆布等日本產食材，加海鹽調味後磨成粉末。價格為5小包入$199、12小包入$399、30小包入$699。 - 減鹽柴魚昆布高湯包：減鹽53%同時保留原味風味，可用麻油炒海帶與蒜末後加水與此包煮成海帶湯，適合減肥料理。價格為5小包入$210、15迷你包入$380、27小包入$699。 - 蔬菜高湯包（原味與減鹽版）：含洋蔥、大蒜、胡蘿蔔、芹菜、高麗菜等5種日本國產蔬菜，只需2至3分鐘即可快速煮出高湯。原味價格為5小包入$209、12小包入$419、24小包入$689；減鹽版減鹽67%，價格為5小包入$219、22小包入$699。 - 小魚乾高湯包（煮干しだし）：結合兩款小魚乾（背黑小魚乾與平子小魚乾）、乾香菇、烤飛魚（あご）及昆布四種素材打造多層次魚介鮮味，香氣濃郁且口感厚實帶微苦甘。適合搭配赤味噌或熟成味噌湯、讚岐烏龍麵、馬鈴薯燉肉或撕開棉袋拌炒飯、炒麵、冷豆腐；若想更清爽可與經典原味高湯以1:1比例混合使用。價格為5小包入$199、30小包入$699。 - 雞高湯包（琪琪百貨人氣款）：嚴選日本國產雞肉搭配天然蔬菜慢火熬煮萃取，適合各式湯品、燉煮與雞肉料理。價格為5小包入$269、16小包入$679。 - 昆布高湯包：嚴選北海道南部真昆布與利尻昆布，湯頭清爽鮮甜，不含動物性成分，適合素食者與養生族群。價格為5小包入$209、24小包入$689。 - 椎茸高湯包：採用日本國產原木乾燥椎茸與曬乾舞茸粉末，不含動物性成分與昆布，適合素食與不食昆布人士。價格為5小包入$249、20小包入$679。 - 留言區補充（代購與優惠）：作者於11/16至11/19進行日本連線代購，未前往日本亦可私訊琪琪百貨IG或加入Line群下單；Line群友專屬優惠為滿$1,500直接免運，滿$2,000送$100購物金加免運。 💡 核心結論 茅乃舍各款高湯包皆為天然無添加且料理方式簡易，料理新手與高手可依原味、減鹽、素食或濃郁魚介等飲食需求照本篇規格挑選，並可趁日本連線期間搭配滿額優惠入手。",
         "conclusion":  "茅乃舍各款高湯包皆為天然無添加且料理方式簡易，料理新手與高手可依原味、減鹽、素食或濃郁魚介等飲食需求照本篇規格挑選，並可趁日本連線期間搭配滿額優惠入手。",
@@ -221,7 +328,11 @@ window.INITIAL_POSTS = [
                        "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/911815702_17956368900273359_2573912089712925703_n.jpg?stp=dst-jpg_e35_tt6\u0026_nc_cat=100\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAzMTAxNjQ5ODI4NzkxNTQ2OQ%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIwNi5zZHIucmVndWxhcl9waG90by5DMyJ9\u0026_nc_ohc=XVPRF3kaxGcQ7kNvwHzBC0I\u0026_nc_oc=AdqScVl3msaWwrRjJW1P1w5d7P8djRz1EevtiqaA4xed5NBR3ZVvfwUWb5EgfsmBnpgnB5LsrJCKVV8kXil7Wjvk\u0026_nc_zt=23\u0026_nc_ht=scontent-ord5-1.cdninstagram.com\u0026_nc_gid=cXMolIgq80VcP5P8zr76_g\u0026_nc_ss=7b289\u0026_nc_ct=RQosPBUIFQIlBAAAAA\u0026oh=00_AQRMyg2zuxmiXac931x_z4D1BlyHZxvpHSOAAO-JqrG4bw\u0026oe=6B00DE37"
                    ],
         "keywords":  [
-
+                         "茅乃舍",
+                         "高湯包",
+                         "日本必買",
+                         "柴魚昆布高湯",
+                         "料理調味"
                      ],
         "places":  [
 
@@ -229,16 +340,17 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  9,
+        "rowNumber":  10,
         "time":  "11/16/2026",
         "url":  "https://www.threads.com/share/BAGa52gR6X",
         "source":  "Threads",
-        "author":  "Lily | 抹茶成癮Matcha lover (@matchailove.zz)",
+        "author":  "@matchailove.zz",
         "title":  "京都西陣住宅區隱藏抹茶專賣店",
         "summary":  "📋 完整重點整理 - 店家資訊與位置：位於日本京都住宅區巷弄內的隱藏抹茶專賣店「SHU HA RI KYOTO」（招牌亦標示「茶 TEA by TEA」），入口位於掛有「西陣ろおじ」與「浄福寺西1路地」標牌的傳統木造長屋窄巷內。 - 餐點與原料特色：店內供應的甜點與飲品皆使用店內販售的抹茶粉製作，現場架上亦有販售「SHU HA RI」有機煎茶及「宇治抹茶 あさひ（ASAHI）」等茶品。 - 濃抹茶菠蘿泡芙：外皮酥脆並撒滿抹茶粉，切開後內餡為濃郁流心的抹茶醬，適合重度抹茶愛好者。 - 季節甜點盤：包含一串淋上抹茶醬並以橘、紅、黃色楓葉造型豆沙擠花點綴的糰子、兩塊抹茶凍、兩片酥脆餅乾、一球抹茶冰淇淋、一團抹茶鮮奶油，並搭配一杯冰茶飲，兼具視覺與味覺享受。 - 留言區資訊：本次擷取資料未包含任何留言內容。 💡 核心結論 作者大力推薦這間隱藏在京都西陣巷弄中的高品質抹茶專賣店，無論是酥脆濃郁的抹茶菠蘿泡芙或充滿秋意的季節甜點盤都極具水準，是重度抹茶控前往京都旅遊時值得造訪並再次回訪的口袋名單。",
         "conclusion":  "作者大力推薦這間隱藏在京都西陣巷弄中的高品質抹茶專賣店，無論是酥脆濃郁的抹茶菠蘿泡芙或充滿秋意的季節甜點盤都極具水準，是重度抹茶控前往京都旅遊時值得造訪並再次回訪的口袋名單。",
         "category":  "美食",
         "city":  "京都",
-        "address":  "📍 SHU HA RI KYOTO (TEA by TEA)：日本京都西陣「西陣ろおじ」（浄福寺西1路地內）",
+        "address":  "📍 SHU HA RI KYOTO：日本京都市上京區西陣ろおじ（浄福寺西1路地）",
         "status":  "完成（含 4 張圖）",
         "driveId":  "1UIPw1JERtvG91xtrJ6w832Gv3njTpk-f",
         "coverUrl":  "https://drive.google.com/thumbnail?id=1UIPw1JERtvG91xtrJ6w832Gv3njTpk-f\u0026sz=w800",
@@ -250,24 +362,33 @@ window.INITIAL_POSTS = [
                        "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/905963465_1642138150729279_4916134605021107803_n.jpg?stp=dst-jpg_e15_tt6\u0026_nc_cat=109\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAzMDk4MDk4MjQ5NjcyNzM3Mg%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D\u0026_nc_ohc=A_oIQslL1skQ7kNvwEHvCcV\u0026_nc_oc=Adoa8-2lgXA9l74jAs8mxA7zYv9WsgDR-aJ0smr5WwK3l0pJiwelqxYZJfdUNS0XraA8ozTtzOTyryQzZAshtHpi\u0026_nc_zt=23\u0026_nc_ht=scontent-atl3-1.cdninstagram.com\u0026_nc_gid=_nLBE8Yqy0eA_psNxWFNRw\u0026_nc_ss=7b289\u0026_nc_ct=RQosPBUIFQolBAAAAA\u0026oh=00_AQSHOllaN5ucTLTX4wJvuETi2nCFxqaS72Ptrm-KTHnbYw\u0026oe=6B00D561"
                    ],
         "keywords":  [
-
+                         "京都美食",
+                         "西陣甜點",
+                         "SHU HA RI KYOTO",
+                         "抹茶泡芙",
+                         "抹茶專賣店"
                      ],
         "places":  [
-
+                       {
+                           "name":  "SHU HA RI KYOTO",
+                           "address":  "日本京都市上京區西陣ろおじ（浄福寺西1路地）",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=SHU%20HA%20RI%20KYOTO%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%8A%E4%BA%AC%E5%8D%80%E8%A5%BF%E9%99%A3%E3%82%8D%E3%81%8A%E3%81%98%EF%BC%88%E6%B5%84%E7%A6%8F%E5%AF%BA%E8%A5%BF1%E8%B7%AF%E5%9C%B0%EF%BC%89"
+                       }
                    ]
     },
     {
         "id":  10,
+        "rowNumber":  11,
         "time":  "11/16/2026",
         "url":  "https://www.threads.com/share/BACqYHMGg7",
         "source":  "Threads",
-        "author":  "小仙島｜台南 Tainan (@showsento_tainan)",
+        "author":  "@showsento_tainan",
         "title":  "台南漢方奶茶店甜度固定不調整",
         "summary":  "📋 完整重點整理 - 店家類型：位於台南的漢方奶茶專賣店「小仙島」（貼文標籤為 #奶茶控）。 - 飲品客製化規定：冰塊可選擇「正常」或「去冰」，但「甜度」完全無法調整，因為漢方茶飲的配方（「這帖」）不能隨意更動。 - 店家日常分享：老闆表示每天都要向顧客解釋甜度固定的規定，也曾遇過聽朋友說不能調甜度、抱著不信邪心態來測試詢問的客人，最終仍維持同樣規則，貼文當天已累積解釋第 1330 次。 - 圖片內容：附圖為影片縮圖，畫面顯示店員於吧台作業製作飲品，並壓有「明奶茶」白色直排大字。 - 留言區資訊：本次擷取內容未包含任何留言區回覆。 💡 核心結論 小仙島的漢方奶茶因配方講究而採固定甜度，僅開放選擇正常冰或去冰，前往消費時建議直接依照店家設定的配方比例點餐品嚐。",
         "conclusion":  "小仙島的漢方奶茶因配方講究而採固定甜度，僅開放選擇正常冰或去冰，前往消費時建議直接依照店家設定的配方比例點餐品嚐。",
         "category":  "美食",
         "city":  "台南",
-        "address":  "📍 小仙島：台南",
+        "address":  "📍 小仙島 漢方茶飲：台灣台南市",
         "status":  "完成（含 1 張圖）",
         "driveId":  "1Ql46DvT4yircF9ofVBMH1wc5hua4Woyh",
         "coverUrl":  "https://drive.google.com/thumbnail?id=1Ql46DvT4yircF9ofVBMH1wc5hua4Woyh\u0026sz=w800",
@@ -276,24 +397,33 @@ window.INITIAL_POSTS = [
                        "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/910809673_1135021595895702_2076942313359069040_n.jpg?stp=dst-jpg_e15_tt6\u0026_nc_cat=110\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAzMTMxODkzOTc4Mjk4MTY0MA%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D\u0026_nc_ohc=J5sjA19UZhwQ7kNvwGIil_B\u0026_nc_oc=Adrkb1NqTAsFQFXRoJNZFMoHDqjOjpFAcsDvEn87SR8j8XFtwj5plVyumSsHvpQ3coC29KPxAJzsQosYME4ul0QR\u0026_nc_zt=23\u0026_nc_ht=scontent-atl3-2.cdninstagram.com\u0026_nc_gid=2QVAS2XizBT4R-FDIKwabA\u0026_nc_ss=7b289\u0026_nc_ct=RQosPBUIFQolBAAAAA\u0026oh=00_AQQjEOxVd-17d_5rpai0WyHmILoakF_4gBrvmkOnSNseGw\u0026oe=6B0100B5"
                    ],
         "keywords":  [
-
+                         "台南美食",
+                         "小仙島",
+                         "漢方奶茶",
+                         "台南手搖飲",
+                         "奶茶控"
                      ],
         "places":  [
-
+                       {
+                           "name":  "小仙島 漢方茶飲",
+                           "address":  "台灣台南市",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%B0%8F%E4%BB%99%E5%B3%B6%20%E6%BC%A2%E6%96%B9%E8%8C%B6%E9%A3%B2%20%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8D%97%E5%B8%82"
+                       }
                    ]
     },
     {
         "id":  11,
+        "rowNumber":  12,
         "time":  "11/16/2026",
         "url":  "https://www.threads.com/share/BATGk6sRIk",
         "source":  "Threads",
-        "author":  "黃雅筠 (@yayun146)",
+        "author":  "@yayun146",
         "title":  "御茶水滑雪裝備店購物比較心得",
         "summary":  "📋 完整重點整理 - 主題為御茶水滑雪裝備購物心得分享，內容為作者實際逛店經驗（每間店有不同店員，不代表整間店服務）。 - 店員語言能力（依實際遇到為準）：1. Victoria 提供日文、英文；2. FUSO 提供日文、英文、中文；3. The Sun 提供日文、英文、中文；4. Murasaki Sports 提供日文、英文，可能有中文。 - 推銷感比較：FUSO \u003e The Sun = Victoria = Murasaki Sports。 - 店員提供的專業協助比較：Murasaki Sports \u003e FUSO \u003e The Sun \u003e Victoria。 - 個人推薦適合物種：1. Victoria 適合喜歡自己慢慢逛、慢慢試穿且不想被打擾的人；2. FUSO 適合想省錢找折扣、希望店員積極幫忙拿尺寸試穿的人，但商品資訊建議自己再確認；3. The Sun 適合想自己慢慢看但需要中文協助的人；4. Murasaki Sports 適合需要專業建議、想認真找到適合自己裝備的人。 💡 核心結論 到御茶水採購滑雪裝備可依據對語言、專業度與服務距離的偏好選擇店家：想找折扣可選 FUSO、需專業建議選 Murasaki Sports、想無壓力自逛則可選 Victoria 或有中文支援的 The Sun。",
         "conclusion":  "到御茶水採購滑雪裝備可依據對語言、專業度與服務距離的偏好選擇店家：想找折扣可選 FUSO、需專業建議選 Murasaki Sports、想無壓力自逛則可選 Victoria 或有中文支援的 The Sun。",
         "category":  "購物好物",
         "city":  "東京",
-        "address":  "📍 Victoria：東京御茶水\n📍 FUSO：東京御茶水\n📍 The Sun：東京御茶水\n📍 Murasaki Sports：東京御茶水",
+        "address":  "📍 Murasaki Sports 御茶水店：東京都千代田區神田小川町\n📍 FUSO SKI \u0026 BOOTSTUNE：東京都千代田區神田小川町\n📍 Victoria 御茶水本店：東京都千代田區神田小川町\n📍 The Sun 滑雪用品店：東京都千代田區神田小川町",
         "status":  "完成（含 0 張圖）",
         "driveId":  "",
         "coverUrl":  "",
@@ -301,18 +431,42 @@ window.INITIAL_POSTS = [
 
                    ],
         "keywords":  [
-
+                         "東京購物",
+                         "御茶水",
+                         "滑雪裝備",
+                         "雪具店比較",
+                         "日本滑雪"
                      ],
         "places":  [
-
+                       {
+                           "name":  "Murasaki Sports 御茶水店",
+                           "address":  "東京都千代田區神田小川町",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=Murasaki%20Sports%20%E5%BE%A1%E8%8C%B6%E6%B0%B4%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8D%80%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA"
+                       },
+                       {
+                           "name":  "FUSO SKI \u0026 BOOTSTUNE",
+                           "address":  "東京都千代田區神田小川町",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=FUSO%20SKI%20%26%20BOOTSTUNE%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8D%80%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA"
+                       },
+                       {
+                           "name":  "Victoria 御茶水本店",
+                           "address":  "東京都千代田區神田小川町",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=Victoria%20%E5%BE%A1%E8%8C%B6%E6%B0%B4%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8D%80%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA"
+                       },
+                       {
+                           "name":  "The Sun 滑雪用品店",
+                           "address":  "東京都千代田區神田小川町",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=The%20Sun%20%E6%BB%91%E9%9B%AA%E7%94%A8%E5%93%81%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8D%80%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA"
+                       }
                    ]
     },
     {
         "id":  12,
+        "rowNumber":  13,
         "time":  "11/16/2026",
         "url":  "https://www.threads.com/share/BAB2hAo98I",
         "source":  "Threads",
-        "author":  "賽博阿姨 (@coax.auntie)",
+        "author":  "@coax.auntie",
         "title":  "AI三大家強項與成本比較",
         "summary":  "📋 完整重點整理 - 資料背景：彙整 Arena 與 Artificial Analysis 兩個第三方排行榜於 11/8 至 11/13（圖卡標註 2026.11.16）的測試數據，皆採用各家最高設定（免費版通常非這些模型）。 - 各項用途推薦：寫程式與做網頁選 Claude（網頁開發對戰榜前三名皆為 Claude）；日常問答選 Gemini（一般人投票的文字對戰榜前兩名皆為 Gemini 4）；上網查資料選 ChatGPT（搜尋對戰榜三家中 OpenAI 排最前面）；便宜與大量使用選 OpenAI（每題成本最低）。 - Artificial Analysis 綜合指數與每題成本（圖表數據）：第 1 名 Claude Fable 5.2（65 分，每題 26.5 美元）、第 2 名 Gemini 4 Carbon（60 分，每題 5.5 美元）、第 3 名 Claude Opus 5.5（59 分，每題 10 美元）、第 4 名 GPT-6 Astra（57 分，每題 6.2 美元）、第 5 名 GPT-6.1 Sol（55 分，每題 1.3 美元）；綜合最高分模型成本比最便宜款貴約 21 倍。 - 留言補充（linkeverythingy）：依用途分開挑選模型能省下不少花費。 - 留言補充（zz950907）：別只看綜合第一名就全壓最貴模型以免帳單爆炸，建議需要交付成果（寫程式、寫企劃、做網站）才用高價模型；日常問答、摘要、翻譯用便宜或免費版即可；大量重複跑的任務需先計算單題成本（如 GPT-6.1 Sol 每題約 1.3 美元）。 💡 核心結論 使用 AI 工具如同去市場買菜，沒有哪一家在所有項目都最好，應根據不同任務需求分開挑選合適的模型，最貴的高分模型不必天天使用，才能兼顧成效與荷包。",
         "conclusion":  "使用 AI 工具如同去市場買菜，沒有哪一家在所有項目都最好，應根據不同任務需求分開挑選合適的模型，最貴的高分模型不必天天使用，才能兼顧成效與荷包。",
@@ -330,7 +484,11 @@ window.INITIAL_POSTS = [
                        "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/864963711_18131262847747565_910376766452139268_n.webp?_nc_cat=104\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAxOTA3MTI0MjA5MDc0NDc5MQ%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9\u0026_nc_ohc=_pTdCAGUFIAQ7kNvwERCX0k\u0026_nc_oc=AdpsgqxgVEr2Imr0U8QWKytZXLljU0LR78HUxO7bxg-K-mTGhbBjLn_aQ2NwSd1aG5F0f1hNZ_p8bt43mfz8G1bk\u0026_nc_ad=z-m\u0026_nc_cid=0\u0026_nc_zt=23\u0026_nc_ht=scontent-atl3-2.cdninstagram.com\u0026_nc_gid=MyBiNh7bNZR8vx-dFY77rQ\u0026_nc_ss=7a20f\u0026_nc_ct=RQosPBUIFQIlBAAAAA\u0026oh=00_AQRv8g9v88RELDH7M8iIqWqWVyC8t-tewI-TH0Rx6RgxSA\u0026oe=6B010085"
                    ],
         "keywords":  [
-
+                         "AI模型比較",
+                         "Gemini 4",
+                         "Claude",
+                         "ChatGPT",
+                         "API成本"
                      ],
         "places":  [
 
@@ -338,10 +496,11 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  13,
+        "rowNumber":  14,
         "time":  "",
         "url":  "https://www.threads.com/share/BARYaKz9_z",
         "source":  "Threads",
-        "author":  "RAINE (@rainysp_ace)",
+        "author":  "@rainysp_ace",
         "title":  "11月連鎖手搖飲新品上市整理",
         "summary":  "📋 完整重點整理\n- 主文內容：作者分享 11 月台灣手搖飲新品資訊，表示圖中新品幾乎都已喝過，後續會陸續將飲用心得整理至留言區，並對當週推出的新品表達期待（本次擷取資料未包含留言區內容）。\n- 封面總覽（11月手搖飲新品上市）：拼貼預告品牌包含得正、五桐號、萬波島嶼紅茶，以及大茗、麻古茶坊（金絨芝芝回歸等）、迷客夏 milksha 等連鎖手搖飲。\n- 得正（Dejeng / OOLONG TEA PROJECT）11/18 限定販售：焙栗糖子輕烏龍奶茶（圖中對應日文為焙煎栗子糰子，原名應為焙栗糰子輕烏龍奶茶）M 號 $70、焙栗粑子輕烏龍鮮奶（應為焙栗糰子輕烏龍鮮奶）M 號 $80、糰子單點配料 +$15；圖片備註本飲品含有堅果類（栗子）。\n- 五桐號（WooTEA）The Melon Chapter 季節限定系列，11/19 正式登場：哈密瓜烏龍凍飲 L 號 $79、哈密瓜蕎麥拿鐵 L 號 $85。\n- 萬波島嶼紅茶（WANPO TEA SHOP）× 得利 Dulux 2027 年度空間趨勢色彩「棲心綠（12GY 39/101）」聯名，11/13 開賣：棲心綠奶茶（Soulful Sage Milk Tea）L 號 $65；圖片備註抹茶系列飲品含有天然咖啡因，請依個人體質酌量飲用。\n\n💡 核心結論\n整理 11 月中旬台灣多間連鎖手搖飲品牌的新品上市日期、品項名稱與售價資訊，方便手搖飲愛好者挑選當日想喝的新品，並可持續關注作者後續於留言區補充的實際試喝心得。",
         "conclusion":  "整理 11 月中旬台灣多間連鎖手搖飲品牌的新品上市日期、品項名稱與售價資訊，方便手搖飲愛好者挑選當日想喝的新品，並可持續關注作者後續於留言區補充的實際試喝心得。",
@@ -359,7 +518,11 @@ window.INITIAL_POSTS = [
                        "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/907436404_18102243152536198_6345370496630557320_n.webp?_nc_cat=111\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAzMTU4MTQ3NDIzNDU4NzQ5NA%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9\u0026_nc_ohc=fGllN8_5w2oQ7kNvwGA1GMb\u0026_nc_oc=AdrYMnGkZyyrPp79UnLOW1ca3mWNav_zkg7eaZLxyWYxUWqgZyD6jB2cBKqxym3U-UGdnm4ezkEqZLZ1k6-2vA8K\u0026_nc_zt=23\u0026_nc_ht=scontent-sea5-1.cdninstagram.com\u0026_nc_gid=i7iNqUTmD2iXt9XUQHtXcQ\u0026_nc_ss=7b289\u0026_nc_ct=RQosPBUIFQIlBAAAAA\u0026oh=00_AQTxqszUt3NzcW8RW7aOk0-Z_drEm1EB1aP1bVTw-aZ8Pw\u0026oe=6B00EF04"
                    ],
         "keywords":  [
-
+                         "手搖飲新品",
+                         "得正",
+                         "五桐號",
+                         "萬波",
+                         "台灣手搖飲"
                      ],
         "places":  [
 
@@ -367,16 +530,17 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  14,
+        "rowNumber":  15,
         "time":  "11/17/2026",
         "url":  "https://www.threads.com/share/BBNSrnN4xi",
         "source":  "Threads",
-        "author":  "叶晓芳 (@yexiaofang83)",
+        "author":  "@yexiaofang83",
         "title":  "富士山9大必拍景點與避坑攻略",
         "summary":  "📋 完整重點整理\n- 主貼文重點：作者分享造訪富士山5次的經驗，整理出河口湖、山中湖、天梯小鎮、羅森便利商店、新倉淺間神社等必拍景點、最佳拍攝時機、避坑重點與行前注意事項；另提醒旅客記得領取遊客專屬優惠券，購買伴手禮與購物結帳可享額外折扣。\n- 1. 河口湖（門票：免費｜開放時間：全年開放）：富士五湖觀光中心，為拍攝富士山經典「湖面倒影（逆富士）」的絕佳地點。正確玩法為建議上午8點前抵達，光線柔和且人潮較少，拍到富士山與倒影的機率較高；錯誤玩法為中午12點至下午4點間前往，此時容易逆光且富士山較不清晰。\n- 2. 山中湖（門票：免費｜開放時間：全年開放）：富士五湖中面積最大、海拔最高的湖泊，以冬季日出時太陽從富士山山頂升起的「鑽石富士」聞名。正確玩法為上午10點前抵達，晴天能見度高，適合騎自行車環湖或在湖畔散步拍照；錯誤玩法為中午12點至下午4點間前往，同樣容易逆光導致拍攝不清楚。\n- 3. 天梯小鎮（下吉田商店街）（門票：免費｜開放時間：全年開放）：筆直商店街盡頭可遠眺富士山，以「天梯街景」視角受到喜愛。正確玩法為從「下吉田站」步行約10至15分鐘（約700公尺）前往，在商店街盡頭取景最經典；錯誤玩法為開車進入商店街（街道較窄且停車不便），拍照時須注意來車與行人安全並保持禮貌，勿影響當地居民生活。\n- 4. 羅森便利商店（富士山景觀店）（門票：免費｜圖表標示開放時間：約9:00–16:30，依店家實際營業時間為準）：店後方可拍攝富士山同框畫面，是經典明信片取景地。正確玩法為建議約8:00前一早前往，遊客少較容易拍到清楚的同框照；錯誤玩法為中午12:00至16:00前往，人潮眾多易排隊且容易逆光。\n- 5. 忍野八海（門票：¥500日圓，約新台幣100元｜開放時間：約9:00–16:30，依季節調整）：由8個源自富士山融雪的清澈湧泉池組成，被譽為「日本九寨溝」，可同時欣賞富士山與日式村落風情。正確玩法為從免費的「忍野八海展望台」拍攝聚落與富士山同框，或利用園區石橋與池邊取景；錯誤玩法為行程緊湊時臨時安排，建議至少預留1至1.5小時。\n- 6. 大石公園（圖表標示門票：¥500日圓，約新台幣100元｜開放時間：約9:00–16:30，依季節調整）：位於河口湖畔，四季有不同花海（春季鬱金香、夏季薰衣草、秋季波波草等），適合拍攝「富士山＋花海＋湖景」。正確玩法為6月下旬至7月中旬（薰衣草花季）或10月中旬（秋季）前往，花況最美；錯誤玩法為未確認花況或交通時刻表（如富士急巴士）便臨時出發，以免遇到花期已過或公車班次不足。\n- 7. 河口湖纜車（天上山公園纜車）（票價：成人往返¥1,000日圓｜營業時間：8:30–17:00，依季節調整）：從河口湖站步行約10分鐘可達搭乘處，搭纜車上海拔約1,075公尺的天上山公園可俯瞰河口湖與富士山全景。正確玩法為約8:30前一早排隊購票搭車（車程約3分鐘），避開人潮從展望台賞景；錯誤玩法為在雲層較厚等天氣不佳時前往，或於週末與國定假日高峰時段前往。\n- 8. 新倉淺間神社（新倉富士淺間神社）（門票：免費｜開放時間：全天開放）：可拍攝「五重塔＋富士山」經典同框畫面。從停車場或下吉田車站步行約10至15分鐘，需爬約398階階梯（約10分鐘）至展望台。正確玩法為晴朗白天前往，特別推薦春季櫻花與秋季紅葉；錯誤玩法為傍晚過後前往，不僅光線不足、展望台會關閉，也較不安全。\n- 9. 富士急樂園（富士急高原樂園）（門票：入園票約¥5,300日圓，依票種與日期而異｜營業時間：9:00–17:00，依季節調整）：以驚險刺激設施聞名（如高飛車、戰慄迷宮等），園內多處可賞富士山。正確玩法為體驗園內4項金氏世界紀錄級雲霄飛車（如高飛車、ええじゃないか等）；錯誤玩法為不喜刺激設施、易暈車或帶年幼孩童同行卻未評估自身狀況就安排入園。\n- 留言區資訊：原始擷取資料未包含留言區內容，故無額外補充資訊。\n\n💡 核心結論\n安排富士山周邊旅遊與拍照時，務必把握早晨順光且人潮較少的黃金時段（多數景點建議上午8至10點前抵達），並避開中午12點至下午4點的逆光與擁擠時段。行前應先確認天氣能見度、季節花況與富士急巴士等交通時刻表，並善用遊客專屬優惠券節省購物旅費。",
         "conclusion":  "安排富士山周邊旅遊與拍照時，務必把握早晨順光且人潮較少的黃金時段（多數景點建議上午8至10點前抵達），並避開中午12點至下午4點的逆光與擁擠時段。行前應先確認天氣能見度、季節花況與富士急巴士等交通時刻表，並善用遊客專屬優惠券節省購物旅費。",
         "category":  "旅遊景點",
         "city":  "富士山",
-        "address":  "📍 河口湖：日本山梨縣富士河口湖町\n📍 山中湖：日本山梨縣山中湖村\n📍 天梯小鎮（下吉田商店街）：日本山梨縣富士吉田市（下吉田站步行約10–15分鐘）\n📍 羅森便利商店（富士山景觀店）：日本山梨縣富士河口湖町\n📍 忍野八海：日本山梨縣忍野村\n📍 大石公園：日本山梨縣富士河口湖町（河口湖畔）\n📍 河口湖纜車（天上山公園纜車）：日本山梨縣富士河口湖町（河口湖站步行約10分鐘）\n📍 新倉淺間神社（新倉富士淺間神社）：日本山梨縣富士吉田市（下吉田車站步行約10–15分鐘）\n📍 富士急樂園（富士急高原樂園）：日本山梨縣富士吉田市",
+        "address":  "📍 河口湖：日本山梨縣富士河口湖町\n📍 山中湖：日本山梨縣山中湖村\n📍 下吉田商店街（天梯小鎮）：日本山梨縣富士吉田市下吉田\n📍 新倉富士淺間神社：日本山梨縣富士吉田市淺間\n📍 忍野八海：日本山梨縣忍野村\n📍 大石公園：日本山梨縣富士河口湖町大石",
         "status":  "完成（含 4 張圖）",
         "driveId":  "1seK6xvIVGlPMFBL6cxZjihTA_qtz8PNw",
         "coverUrl":  "https://drive.google.com/thumbnail?id=1seK6xvIVGlPMFBL6cxZjihTA_qtz8PNw\u0026sz=w800",
@@ -388,18 +552,52 @@ window.INITIAL_POSTS = [
                        "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/905867828_17951459466092792_476636473166067994_n.webp?_nc_cat=102\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAzMTQ2NTYzNDk0MDIxMTY0Mw%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9\u0026_nc_ohc=f2Wrs2F5218Q7kNvwHoxCNO\u0026_nc_oc=AdqhgNuM2mW2yafGwi5NOyNLsKI793wd5hl7PxFTwcz4BAT5n1GK9eNRncD8QX1_5G0nmJBtmFANmVL6YF3vYy3S\u0026_nc_zt=23\u0026_nc_ht=scontent-atl3-2.cdninstagram.com\u0026_nc_gid=KxTNbI9xoioHYK6sqQVGcw\u0026_nc_ss=7b289\u0026_nc_ct=RQosPBUIFQIlBAAAAA\u0026oh=00_AQRAPJlAZV08JLZ-SxsdBNs18sKDvKj8zVOE0kdxrnhwXA\u0026oe=6B012120"
                    ],
         "keywords":  [
-
+                         "富士山景點",
+                         "河口湖",
+                         "新倉淺間神社",
+                         "逆富士",
+                         "日本自由行"
                      ],
         "places":  [
-
+                       {
+                           "name":  "河口湖",
+                           "address":  "日本山梨縣富士河口湖町",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E6%B2%B3%E5%8F%A3%E6%B9%96%20%E6%97%A5%E6%9C%AC%E5%B1%B1%E6%A2%A8%E7%B8%A3%E5%AF%8C%E5%A3%AB%E6%B2%B3%E5%8F%A3%E6%B9%96%E7%94%BA"
+                       },
+                       {
+                           "name":  "山中湖",
+                           "address":  "日本山梨縣山中湖村",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%B1%B1%E4%B8%AD%E6%B9%96%20%E6%97%A5%E6%9C%AC%E5%B1%B1%E6%A2%A8%E7%B8%A3%E5%B1%B1%E4%B8%AD%E6%B9%96%E6%9D%91"
+                       },
+                       {
+                           "name":  "下吉田商店街（天梯小鎮）",
+                           "address":  "日本山梨縣富士吉田市下吉田",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E4%B8%8B%E5%90%89%E7%94%B0%E5%95%86%E5%BA%97%E8%A1%97%EF%BC%88%E5%A4%A9%E6%A2%AF%E5%B0%8F%E9%8E%AE%EF%BC%89%20%E6%97%A5%E6%9C%AC%E5%B1%B1%E6%A2%A8%E7%B8%A3%E5%AF%8C%E5%A3%AB%E5%90%89%E7%94%B0%E5%B8%82%E4%B8%8B%E5%90%89%E7%94%B0"
+                       },
+                       {
+                           "name":  "新倉富士淺間神社",
+                           "address":  "日本山梨縣富士吉田市淺間",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E6%96%B0%E5%80%89%E5%AF%8C%E5%A3%AB%E6%B7%BA%E9%96%93%E7%A5%9E%E7%A4%BE%20%E6%97%A5%E6%9C%AC%E5%B1%B1%E6%A2%A8%E7%B8%A3%E5%AF%8C%E5%A3%AB%E5%90%89%E7%94%B0%E5%B8%82%E6%B7%BA%E9%96%93"
+                       },
+                       {
+                           "name":  "忍野八海",
+                           "address":  "日本山梨縣忍野村",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%BF%8D%E9%87%8E%E5%85%AB%E6%B5%B7%20%E6%97%A5%E6%9C%AC%E5%B1%B1%E6%A2%A8%E7%B8%A3%E5%BF%8D%E9%87%8E%E6%9D%91"
+                       },
+                       {
+                           "name":  "大石公園",
+                           "address":  "日本山梨縣富士河口湖町大石",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%A4%A7%E7%9F%B3%E5%85%AC%E5%9C%92%20%E6%97%A5%E6%9C%AC%E5%B1%B1%E6%A2%A8%E7%B8%A3%E5%AF%8C%E5%A3%AB%E6%B2%B3%E5%8F%A3%E6%B9%96%E7%94%BA%E5%A4%A7%E7%9F%B3"
+                       }
                    ]
     },
     {
         "id":  15,
+        "rowNumber":  16,
         "time":  "11/17/2026",
         "url":  "https://www.threads.com/share/_rYP3zF5Y",
         "source":  "Threads",
-        "author":  "135lab (@135lab)",
+        "author":  "@135lab",
         "title":  "PCB過孔種類尺寸與蓋油解析",
         "summary":  "📋 完整重點整理\n- 過孔三種類型（四層板 L1 頂層至 L4 底層剖面）：\n  1. 通孔：從頂層（L1）穿到底層（L4），成本最低，九成以上的電路板都使用它。\n  2. 盲孔：連接表層到內層。\n  3. 埋孔：只連接內層之間。\n  4. 盲埋孔選擇建議：盲孔與埋孔只連部分層，屬於 HDI 製程，價格與交期都會明顯增加；一般專題、研發打樣用通孔就夠，手機級高密度設計才需要盲埋孔，建議優先嘗試改佈局（如換零件方向或改四層板），通常比用盲埋孔便宜。\n- 過孔尺寸與孔徑／焊盤搭配（需預留足夠環寬）：\n  1. 一般設計：孔徑 0.3 mm／焊盤 0.6 mm，最穩定且良率最高。\n  2. 走線較密：孔徑 0.25 mm／焊盤 0.5 mm，仍屬常規規格。\n  3. BGA 扇出：孔徑 0.2 mm／焊盤 0.4 mm，多用於 BGA。\n  4. 鑽孔限制與縱橫比：孔越小鑽孔越難、成本越高；縱橫比為板厚除以孔徑，例如 1.6 mm 板厚配 0.2 mm 孔徑為 8：1，再小就難以製造。\n  5. 設計技巧：可先在軟體的 DRC 規則中預設好過孔尺寸，佈線時按快捷鍵即可打出正確規格。\n- 蓋油、開窗與打在焊盤上的處理方式：\n  1. 蓋油（Tenting）：以防焊漆蓋住過孔避免短路，最安全，一般過孔預設建議採用。\n  2. 開窗：過孔露出銅面可當作測試點（能省去一個測試焊盤），但位置需離 SMD 焊盤遠一點。\n  3. 打在焊盤上：不要直接打在 SMD 焊盤上，回焊時錫會被吸進孔裡導致空焊；SMD 焊盤旁的過孔應蓋油或距離焊盤 0.2 mm 以上。若因 BGA 或散熱焊盤需求非打不可，必須選用樹脂塞孔。\n\n💡 核心結論\n畫 PCB 時優先選用成本低、良率高的通孔（常用 0.3／0.6 mm）並預設過孔蓋油，切勿將未處理的過孔直接打在 SMD 焊盤上以免空焊，必要時才採用樹脂塞孔或改用較高成本的盲埋孔製程。",
         "conclusion":  "畫 PCB 時優先選用成本低、良率高的通孔（常用 0.3／0.6 mm）並預設過孔蓋油，切勿將未處理的過孔直接打在 SMD 焊盤上以免空焊，必要時才採用樹脂塞孔或改用較高成本的盲埋孔製程。",
@@ -417,7 +615,11 @@ window.INITIAL_POSTS = [
                        "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/902954765_18135242425745145_5406517060551866242_n.jpg?stp=dst-jpg_e35_tt6\u0026_nc_cat=100\u0026_nc_map=urlgen_bucketless\u0026ig_cache_key=NDAzMjA5NTMxODA1MzM3NzE1OQ%3D%3D.3-ccb7-5\u0026ccb=7-5\u0026_nc_sid=58cdad\u0026efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9\u0026_nc_ohc=Jg9uM1z8WhEQ7kNvwEIG1WY\u0026_nc_oc=AdpA3qe5lXCKSBxlGb5tBABETLX7d_VEVMFMGlNTGMpVg-5LgMoJQQ17cNKvjbhYhDvwDlWHW2QMZqPqfs1QHoRa\u0026_nc_zt=23\u0026_nc_ht=scontent-ord5-1.cdninstagram.com\u0026_nc_gid=gzoejaeOm8-7Ymrn04d33g\u0026_nc_ss=7b289\u0026_nc_ct=RQosPBUIFQIlBAAAAA\u0026oh=00_AQRD03fhXirX8Ge0Gi3B9MGtbOTJpF17McQ_ugMxHLOV-Q\u0026oe=6B01ADF1"
                    ],
         "keywords":  [
-
+                         "PCB設計",
+                         "過孔設計",
+                         "電路板Layout",
+                         "通孔蓋油",
+                         "硬體工程"
                      ],
         "places":  [
 
@@ -425,6 +627,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  16,
+        "rowNumber":  17,
         "time":  "11/18/2026",
         "url":  "https://www.threads.com/share/BAOaaztH5e",
         "source":  "Threads",
@@ -462,6 +665,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  17,
+        "rowNumber":  18,
         "time":  "11/18/2026",
         "url":  "https://www.threads.com/share/_i2jODZTL",
         "source":  "Threads",
@@ -497,6 +701,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  18,
+        "rowNumber":  19,
         "time":  "11/18/2026",
         "url":  "https://www.threads.com/share/_3qk1-dAU",
         "source":  "Threads",
@@ -534,6 +739,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  19,
+        "rowNumber":  20,
         "time":  "",
         "url":  "https://www.instagram.com/p/Dfw1vTyDcp4/",
         "source":  "Instagram",
@@ -596,6 +802,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  20,
+        "rowNumber":  21,
         "time":  "11/18/2026",
         "url":  "https://www.threads.com/share/_1zb54GGG",
         "source":  "Threads",
@@ -627,6 +834,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  21,
+        "rowNumber":  22,
         "time":  "11/19/2026",
         "url":  "https://www.instagram.com/reel/Df5EnI_PDBU/",
         "source":  "Instagram",
@@ -663,6 +871,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  22,
+        "rowNumber":  23,
         "time":  "11/19/2026",
         "url":  "https://www.instagram.com/reel/DftVMqmPVqU/",
         "source":  "Instagram",
@@ -699,6 +908,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  23,
+        "rowNumber":  24,
         "time":  "11/20/2026",
         "url":  "https://www.threads.com/share/BAbonZ1O_F",
         "source":  "Threads",
@@ -736,6 +946,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  24,
+        "rowNumber":  25,
         "time":  "11/21/2026",
         "url":  "https://www.threads.com/share/BAFDcto0Mp",
         "source":  "Threads",
@@ -773,24 +984,29 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  25,
+        "rowNumber":  26,
         "time":  "11/22/2026",
-        "url":  "https://www.threads.com/share/BAODyDHrGs",
+        "url":  "https://www.threads.com/@it.oppa.twhk/post/DgCHWp5ilXB",
         "source":  "Threads",
-        "author":  "未知",
-        "title":  "無法讀取",
-        "summary":  "無法讀取內容（可能為私密帳號或平台暫時封鎖）",
-        "conclusion":  "",
-        "category":  "未分類",
+        "author":  "@it.oppa.twhk",
+        "title":  "AI Studio直出安卓上架包",
+        "summary":  "📋 完整重點整理\n- 核心亮點：Google AI Studio 正式上線原生 Android 構建模式（Build 模式選取 Android 晶片），獨立開發者不必在本機安裝動輒吃掉 30GB 硬碟的 Android Studio 與 SDK，即可在瀏覽器用白話文提示詞產出完整專案。\n- 四大全端自動化流程（圖卡拆解）：\n  1. 自然語言直出 Kotlin＋Jetpack Compose：輸入需求即可生成正式、可維護的現代化原生 Android 專案架構。\n  2. 雲端幕後自動簽署並打包 .aab：告別本機處理 Gradle 版本衝突、Keystore 簽署憑證與插 USB 線除錯，一鍵推送至測試裝置或 Google Play 內測軌道。\n  3. 自動串接 Firebase 全端與 API 防護：內建配置 Firestore 資料庫、Google 登入與 Firebase App Check，在伺服器端安全調用 Gemini，防止 API 金鑰外洩於安裝包中。\n  4. 瀏覽器高清雲端模擬器＋截圖一鍵改 UI：網頁內可直接滑動試玩 App，發現跑版時直接截圖丟回 AI 代理即可秒修畫面樣式。\n- 留言區重點補充：與單純產出程式碼片段的聊天助手（如一般 Gemini App 或 Claude 對話視窗）不同，Google AI Studio Build 模式屬於端到端雲端開發與打包平台，省去手動配置環境與上架簽署的繁瑣流程。\n\n💡 核心結論\nGoogle AI Studio 原生 Android 構建模式實現了從一句提示詞到產出 Kotlin＋Compose 專案、串接 Firebase 防護、雲端模擬器除錯及自動簽署 .aab 上架包的全流程自動化，非常適合獨立開發者免裝環境快速打造個人手機小工具。",
+        "conclusion":  "Google AI Studio 原生 Android 構建模式實現了從一句提示詞到產出 Kotlin＋Compose 專案、串接 Firebase 防護、雲端模擬器除錯及自動簽署 .aab 上架包的全流程自動化，非常適合獨立開發者免裝環境快速打造個人手機小工具。",
+        "category":  "App工具",
         "city":  "",
         "address":  "",
-        "status":  "失敗",
+        "status":  "完成（含 3 張圖）",
         "driveId":  "",
-        "coverUrl":  "",
+        "coverUrl":  "https://exe2xxx2003.github.io/saved-posts-pwa/covers/row26.webp",
         "images":  [
-
+                       "https://exe2xxx2003.github.io/saved-posts-pwa/covers/row26.webp"
                    ],
         "keywords":  [
-
+                         "Google AI Studio",
+                         "Android開發",
+                         "Jetpack Compose",
+                         "Vibe Coding",
+                         "Firebase"
                      ],
         "places":  [
 
@@ -798,6 +1014,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  26,
+        "rowNumber":  27,
         "time":  "11/23/2026",
         "url":  "https://www.instagram.com/p/Df1jdOmMSwS/",
         "source":  "Instagram",
@@ -834,24 +1051,29 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  27,
+        "rowNumber":  28,
         "time":  "11/23/2026",
-        "url":  "https://www.threads.com/share/BAvlQ2rYto",
+        "url":  "https://www.threads.com/@aiposthub/post/DgEUk5sAfSm",
         "source":  "Threads",
-        "author":  "未知",
-        "title":  "無法讀取",
-        "summary":  "無法讀取內容（可能為私密帳號或平台暫時封鎖）",
-        "conclusion":  "",
-        "category":  "未分類",
+        "author":  "@aiposthub",
+        "title":  "sherpa-onnx全離線語音框架",
+        "summary":  "📋 完整重點整理\n- 專案簡介：GitHub 累積超過 15,000 顆星（15.7K Stars）的開源語音 AI 框架「sherpa-onnx」，採用商業友善的 Apache 2.0 開源授權。\n- 核心優勢（100% 本機離線運作）：可在手機或終端設備「完全無網路」的環境下直接執行 AI 語音處理，無須將錄音上傳雲端伺服器，兼顧低延遲、零雲端 API 費用與隱私安全。\n- 四大支援能力：\n  1. 離線語音辨識（ASR / Speech-to-Text）\n  2. 離線文字轉語音（TTS / Text-to-Speech）\n  3. 說話者辨識（Speaker Identification / Diarization）\n  4. 背景語音降噪（Speech Enhancement / Denoising）\n- 跨平台整合性：基於 ONNX Runtime 打造，上述功能皆可直接嵌入並整合進開發者自建的 iOS、Android、桌面或嵌入式 App 中（延伸技術解析見 aiposthub.com）。\n\n💡 核心結論\n若開發手機或桌面 App 需要免費、低延遲且保護隱私的語音功能，推薦採用 Apache 2.0 開源的 sherpa-onnx 框架，不需連網即可在本機一次搞定語音轉文字、語音合成、語者辨識與背景降噪。",
+        "conclusion":  "若開發手機或桌面 App 需要免費、低延遲且保護隱私的語音功能，推薦採用 Apache 2.0 開源的 sherpa-onnx 框架，不需連網即可在本機一次搞定語音轉文字、語音合成、語者辨識與背景降噪。",
+        "category":  "3C科技",
         "city":  "",
         "address":  "",
-        "status":  "失敗",
+        "status":  "完成（含 1 張圖）",
         "driveId":  "",
-        "coverUrl":  "",
+        "coverUrl":  "https://exe2xxx2003.github.io/saved-posts-pwa/covers/row28.png",
         "images":  [
-
+                       "https://exe2xxx2003.github.io/saved-posts-pwa/covers/row28.png"
                    ],
         "keywords":  [
-
+                         "sherpa-onnx",
+                         "離線語音AI",
+                         "語音辨識ASR",
+                         "文字轉語音TTS",
+                         "開源專案"
                      ],
         "places":  [
 
@@ -859,6 +1081,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  28,
+        "rowNumber":  29,
         "time":  "11/23/2026",
         "url":  "https://www.threads.com/share/BAbv6Cnrq0",
         "source":  "Threads",
@@ -891,6 +1114,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  29,
+        "rowNumber":  30,
         "time":  "11/23/2026",
         "url":  "https://www.threads.com/share/BADWVA8gcg",
         "source":  "Threads",
@@ -925,31 +1149,76 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  30,
+        "rowNumber":  31,
         "time":  "11/25/2026",
-        "url":  "https://www.threads.com/share/BCQuovSWBT",
+        "url":  "https://www.threads.com/@shelly_0616_/post/DgH57tjElIj",
         "source":  "Threads",
-        "author":  "未知",
-        "title":  "無法讀取",
-        "summary":  "無法讀取內容（可能為私密帳號或平台暫時封鎖）",
-        "conclusion":  "",
-        "category":  "未分類",
-        "city":  "",
-        "address":  "",
-        "status":  "失敗",
+        "author":  "@shelly_0616_",
+        "title":  "北部30家溫泉大眾池平假日價目",
+        "summary":  "📋 完整重點整理\n- 總覽範圍：作者（@shelly_0616_）彙整北台灣（陽明山、北投、金山、烏來、礁溪）共 30 家溫泉大眾池平假日價格與規定（資料統計至 2026/11/23；另皇池已於 3 月停業改建、北投千禧湯 60 元整修預計 11/30 完工）。\n- 【免費就能泡（3 家）】：\n  1. 冷水坑公共浴室（陽明山）：一天 4 場、週一休、現改為「要穿泳衣」。\n  2. 磺港公共浴室（金山）：冬天 5–9 點及 16–20 點開放、男女分開、毛巾自備。\n  3. 礁溪溫泉公園足湯（礁溪）：8–22 點開放、週一與週四清潔。\n- 【200 元內平價首選（7 家，礁溪占 5 家）】：\n  - 湯圍風呂（礁溪）：80 元（優待票 60、長者 40）｜春風（礁溪）：100 元（不限時、平假日同價）｜四季溫泉（礁溪）：120 元（不限時、平假日同價）｜春水笈（礁溪）：120 元（06:00–23:00、平假日同價）｜源來如池（礁溪）：120 元（24 小時，週五至週日 16 點後 200 元）｜瀧乃湯（北投）：150 元（不限時、平假日同價、毛巾自備）｜山之林（北投）：150 元（10 點前早鳥 120 元、平假日同價）。\n- 【200～500 元設備升級（8 家，標示平日價）】：\n  - 森林風呂（礁溪）：250 元（24 小時、浴巾浴帽自備）｜川湯溫泉（北投）：250 元（男女裸湯、平假日同價、毛巾櫃台一條 100）｜川湯春天（礁溪）：290 元（假日 380、要穿泳衣）｜馬槽花藝村（陽明山）：8 月起漲至 300 元（限 3 小時、盥洗用品自備）｜星河傳說（礁溪）：300 元（假日 400、要穿泳衣）｜舊金山總督（金山）：330 元（假日 380、限 3 小時、1 樓需泳衣）｜Spring Spa（烏來）：450 元（假日 600、限 13 歲以上）｜名湯（烏來）：500 元（附浴巾毛巾並送飲料）。\n- 【500 元以上飯店犒賞級（11 家，標示平日價）】：\n  - 雲頂（烏來）：600 元（不限時、平假日同價）｜寒沐光之湯（礁溪）：600 元（線上買 579）｜天籟室內裸湯（金山）：700 元（兒童 480）｜天玥泉（北投）：700 元（假日 800、不限時）｜享溫泉（北投）：780 元（假日 1,080，價差 +300）｜春天酒店（北投）：800 元（平假日同價、要穿泳衣）｜馥蘭朵（烏來）：850 元（假日 1,000、限 4 小時）｜天籟露天風呂（金山）：900 元（假日 1,200、要穿泳衣）｜璞石麗緻（烏來）：1,100 元（附毛巾）｜麗禧（北投）：1,600 元（假日 1,800、限 4 小時）｜亞太（北投）：1,800 元（限 3 小時）｜北海洲際（金山）：1,800 元（假日 2,100、限 4 小時）。\n- 行前三大必看提醒：\n  1. 需穿泳衣：冷水坑、川湯春天、星河傳說、春天酒店、天籟露天、舊金山 1 樓。\n  2. 需自備毛巾：磺港、瀧乃湯、馬槽、森林風呂、川湯。\n  3. 有時間限制：馥蘭朵／麗禧／北海洲際（4 小時）、亞太／馬槽／舊金山總督（3 小時），其餘多數不限時。\n\n💡 核心結論\n北台灣泡湯選擇從免費公共浴室到千元星級飯店一應俱全：小資族首推礁溪與北投 80～150 元不限時平假日同價湯屋／大眾池，假日出遊可避開價差高達 200～300 元的飯店，出發前務必先確認是否需穿泳衣、自備毛巾及泡湯時數限制。",
+        "conclusion":  "北台灣泡湯選擇從免費公共浴室到千元星級飯店一應俱全：小資族首推礁溪與北投 80～150 元不限時平假日同價湯屋／大眾池，假日出遊可避開價差高達 200～300 元的飯店，出發前務必先確認是否需穿泳衣、自備毛巾及泡湯時數限制。",
+        "category":  "旅遊景點",
+        "city":  "台北",
+        "address":  "📍 冷水坑公共浴室：台北市士林區陽明山冷水坑\n📍 磺港公共浴室：新北市金山區磺港路\n📍 湯圍風呂（湯圍溝溫泉公園）：宜蘭縣礁溪鄉德陽路99-11號\n📍 北投青磺名湯（瀧乃湯）：台北市北投區光明路244號\n📍 皇池溫泉御膳館／川湯溫泉：台北市北投區行義路\n📍 馬槽花藝村：台北市士林區竹子湖路251巷20號\n📍 烏來名湯溫泉會館：新北市烏來區啦卡路36號\n📍 北投麗禧溫泉酒店：台北市北投區幽雅路30號",
+        "status":  "完成（含 7 張圖）",
         "driveId":  "",
-        "coverUrl":  "",
+        "coverUrl":  "https://exe2xxx2003.github.io/saved-posts-pwa/covers/row31.jpg",
         "images":  [
-
+                       "https://exe2xxx2003.github.io/saved-posts-pwa/covers/row31.jpg"
                    ],
         "keywords":  [
-
+                         "北部溫泉",
+                         "大眾池攻略",
+                         "北投溫泉",
+                         "礁溪溫泉",
+                         "烏來金山泡湯"
                      ],
         "places":  [
-
+                       {
+                           "name":  "冷水坑公共浴室",
+                           "address":  "台北市士林區陽明山冷水坑",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%86%B7%E6%B0%B4%E5%9D%91%E5%85%AC%E5%85%B1%E6%B5%B4%E5%AE%A4%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E9%99%BD%E6%98%8E%E5%B1%B1%E5%86%B7%E6%B0%B4%E5%9D%91"
+                       },
+                       {
+                           "name":  "磺港公共浴室",
+                           "address":  "新北市金山區磺港路",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E7%A3%BA%E6%B8%AF%E5%85%AC%E5%85%B1%E6%B5%B4%E5%AE%A4%20%E6%96%B0%E5%8C%97%E5%B8%82%E9%87%91%E5%B1%B1%E5%8D%80%E7%A3%BA%E6%B8%AF%E8%B7%AF"
+                       },
+                       {
+                           "name":  "湯圍風呂（湯圍溝溫泉公園）",
+                           "address":  "宜蘭縣礁溪鄉德陽路99-11號",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E6%B9%AF%E5%9C%8D%E9%A2%A8%E5%91%82%EF%BC%88%E6%B9%AF%E5%9C%8D%E6%BA%9D%E6%BA%AB%E6%B3%89%E5%85%AC%E5%9C%92%EF%BC%89%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%A4%81%E6%BA%AA%E9%84%89%E5%BE%B7%E9%99%BD%E8%B7%AF99-11%E8%99%9F"
+                       },
+                       {
+                           "name":  "北投青磺名湯（瀧乃湯）",
+                           "address":  "台北市北投區光明路244號",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%8C%97%E6%8A%95%E9%9D%92%E7%A3%BA%E5%90%8D%E6%B9%AF%EF%BC%88%E7%80%A7%E4%B9%83%E6%B9%AF%EF%BC%89%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E5%85%89%E6%98%8E%E8%B7%AF244%E8%99%9F"
+                       },
+                       {
+                           "name":  "皇池溫泉御膳館／川湯溫泉",
+                           "address":  "台北市北投區行義路",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E7%9A%87%E6%B1%A0%E6%BA%AB%E6%B3%89%E5%BE%A1%E8%86%B3%E9%A4%A8%EF%BC%8F%E5%B7%9D%E6%B9%AF%E6%BA%AB%E6%B3%89%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E8%A1%8C%E7%BE%A9%E8%B7%AF"
+                       },
+                       {
+                           "name":  "馬槽花藝村",
+                           "address":  "台北市士林區竹子湖路251巷20號",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E9%A6%AC%E6%A7%BD%E8%8A%B1%E8%97%9D%E6%9D%91%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E7%AB%B9%E5%AD%90%E6%B9%96%E8%B7%AF251%E5%B7%B720%E8%99%9F"
+                       },
+                       {
+                           "name":  "烏來名湯溫泉會館",
+                           "address":  "新北市烏來區啦卡路36號",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E7%83%8F%E4%BE%86%E5%90%8D%E6%B9%AF%E6%BA%AB%E6%B3%89%E6%9C%83%E9%A4%A8%20%E6%96%B0%E5%8C%97%E5%B8%82%E7%83%8F%E4%BE%86%E5%8D%80%E5%95%A6%E5%8D%A1%E8%B7%AF36%E8%99%9F"
+                       },
+                       {
+                           "name":  "北投麗禧溫泉酒店",
+                           "address":  "台北市北投區幽雅路30號",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%8C%97%E6%8A%95%E9%BA%97%E7%A6%A7%E6%BA%AB%E6%B3%89%E9%85%92%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E5%B9%BD%E9%9B%85%E8%B7%AF30%E8%99%9F"
+                       }
                    ]
     },
     {
         "id":  31,
+        "rowNumber":  32,
         "time":  "11/25/2026",
         "url":  "https://www.threads.com/share/BAfpx73Qv9",
         "source":  "Threads",
@@ -986,6 +1255,7 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  32,
+        "rowNumber":  33,
         "time":  "11/26/2026",
         "url":  "https://www.threads.com/share/BAbW6HJ4JK",
         "source":  "Threads",
@@ -1037,31 +1307,41 @@ window.INITIAL_POSTS = [
     },
     {
         "id":  33,
+        "rowNumber":  34,
         "time":  "11/26/2026",
-        "url":  "https://www.threads.com/share/BAR2Hox3ZJ",
+        "url":  "https://www.threads.com/@ou.konatsu/post/DgMfsL4kxvo",
         "source":  "Threads",
-        "author":  "失敗",
-        "title":  "AI 分析失敗",
-        "summary":  "連續重試 3 輪仍遇伺服器高負載：\nAI 摘要生成失敗：[gemini-3.5-flash] HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are u",
-        "conclusion":  "",
-        "category":  "失敗",
-        "city":  "",
-        "address":  "",
-        "status":  "失敗",
+        "author":  "@ou.konatsu",
+        "title":  "沖繩超市Umios真丸雪蟹肉罐頭",
+        "summary":  "📋 完整重點整理\n- 商品亮點與價格：日本超市必敗挖寶好物「Umios 丸雪蟹罐頭（まるずわいがに ほぐしみ）」，網路與超市參考價僅約 ¥340 日圓，內裝真正的深海紅雪蟹肉（Deepwater Red Crab Flakes），而非魚漿製成的蟹味棒。\n- 兩款口味區分：\n  1. 紅罐（ほぐしみ）：主打鮮甜軟嫩的純丸雪蟹碎肉，適合沙拉、義大利麵或滑蛋料理。\n  2. 黃罐（かにみそ かに肉入り）：結合濃郁蟹膏＋蟹肉，香氣更加醇厚下飯。\n- 民宿主理人私藏 3 種懶人料理吃法（免剝殼即食）：\n  1. 蟹肉炒飯：蟹肉＋雞蛋＋白飯大火翻炒。\n  2. 日式蟹膏拌飯：黃罐蟹膏＋熱騰騰白飯＋生蛋黃拌勻。\n  3. 日式海鮮厚片（邪惡吃法）：蟹膏＋奶油塗抹於吐司烘烤。\n- 購買管道與網友熱議：引用貼文網友（@bo_0ndesu）分享在沖繩 AEON 超市掃光架上最後 5 罐帶回台灣，結果幾天內就被媽媽一個人全部嗑光；建議前往沖繩或日本各大超市時直接去罐頭區尋寶囤貨。\n\n💡 核心結論\nUmios 丸雪蟹罐頭以約 ¥340 的親民價格提供免剝殼的真實深海雪蟹肉與蟹膏，無論拌飯、炒飯或烤奶油吐司都極致美味，到沖繩 AEON 等日本超市逛街時務必列入罐頭區必買伴手禮清單。",
+        "conclusion":  "Umios 丸雪蟹罐頭以約 ¥340 的親民價格提供免剝殼的真實深海雪蟹肉與蟹膏，無論拌飯、炒飯或烤奶油吐司都極致美味，到沖繩 AEON 等日本超市逛街時務必列入罐頭區必買伴手禮清單。",
+        "category":  "購物好物",
+        "city":  "沖繩",
+        "address":  "📍 AEON 那霸店 (イオン那覇店)：日本沖繩縣那霸市金城5-10-2",
+        "status":  "完成（含 4 張圖）",
         "driveId":  "",
-        "coverUrl":  "",
+        "coverUrl":  "https://exe2xxx2003.github.io/saved-posts-pwa/covers/row34.jpg",
         "images":  [
-
+                       "https://exe2xxx2003.github.io/saved-posts-pwa/covers/row34.jpg"
                    ],
         "keywords":  [
-
+                         "沖繩必買",
+                         "Umios蟹肉罐頭",
+                         "丸雪蟹",
+                         "日本超市挖寶",
+                         "蟹膏料理"
                      ],
         "places":  [
-
+                       {
+                           "name":  "AEON 那霸店 (イオン那覇店)",
+                           "address":  "日本沖繩縣那霸市金城5-10-2",
+                           "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=AEON%20%E9%82%A3%E9%9C%B8%E5%BA%97%20(%E3%82%A4%E3%82%AA%E3%83%B3%E9%82%A3%E8%A6%87%E5%BA%97)%20%E6%97%A5%E6%9C%AC%E6%B2%96%E7%B9%A9%E7%B8%A3%E9%82%A3%E9%9C%B8%E5%B8%82%E9%87%91%E5%9F%8E5-10-2"
+                       }
                    ]
     },
     {
         "id":  34,
+        "rowNumber":  35,
         "time":  "11/27/2026",
         "url":  "https://www.threads.com/share/BAdO6JGigK",
         "source":  "Threads",
