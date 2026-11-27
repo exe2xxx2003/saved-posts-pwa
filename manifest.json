@@ -1,0 +1,33 @@
+{
+  "name": "存貼文寶庫 PostVault",
+  "short_name": "存貼文",
+  "description": "串接 Google Sheets「存貼文」資料庫的跨平台視覺化搜尋、地圖與收藏管理工具",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='42' fill='%234f46e5'/%3E%3Ctext x='96' y='124' font-size='96' text-anchor='middle' fill='white'%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%234f46e5'/%3E%3Ctext x='256' y='336' font-size='256' text-anchor='middle' fill='white'%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "share_target": {
+    "action": "./index.html",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
