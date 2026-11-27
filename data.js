@@ -1,4 +1,4 @@
-// Synced from Google Sheet 存貼文 (34 complete posts)
+// Synced from Google Sheet 存貼文 (18-column schema with 城市/區域/具體地址)
 window.INITIAL_POSTS = [
     {
         "id":  1,
@@ -32,7 +32,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  2,
@@ -95,7 +96,8 @@ window.INITIAL_POSTS = [
                            "address":  "日本京都市南區",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E6%9D%B1%E5%AF%BA%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8D%97%E5%8D%80"
                        }
-                   ]
+                   ],
+        "district":  "伏見區・宇治・左京區"
     },
     {
         "id":  3,
@@ -135,7 +137,8 @@ window.INITIAL_POSTS = [
                            "address":  "日本京都市右京區嵯峨",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%B0%8F%E5%80%89%E5%B1%B1%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8F%B3%E4%BA%AC%E5%8D%80%E5%B5%AF%E5%B3%A8"
                        }
-                   ]
+                   ],
+        "district":  "右京區・嵐山"
     },
     {
         "id":  4,
@@ -167,7 +170,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  5,
@@ -220,7 +224,8 @@ window.INITIAL_POSTS = [
                            "address":  "日本奈良縣吉野郡吉野町吉野山",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E8%8A%B1%E7%9F%A2%E5%80%89%E5%B1%95%E6%9C%9B%E5%8F%B0%20%E6%97%A5%E6%9C%AC%E5%A5%88%E8%89%AF%E7%B8%A3%E5%90%89%E9%87%8E%E9%83%A1%E5%90%89%E9%87%8E%E7%94%BA%E5%90%89%E9%87%8E%E5%B1%B1"
                        }
-                   ]
+                   ],
+        "district":  "吉野町"
     },
     {
         "id":  6,
@@ -268,7 +273,8 @@ window.INITIAL_POSTS = [
                            "address":  "日本長野縣安曇野市表銀座縱走線",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%90%88%E6%88%B0%E5%B0%8F%E5%B1%8B%20%E6%97%A5%E6%9C%AC%E9%95%B7%E9%87%8E%E7%B8%A3%E5%AE%89%E6%9B%87%E9%87%8E%E5%B8%82%E8%A1%A8%E9%8A%80%E5%BA%A7%E7%B8%B1%E8%B5%B0%E7%B7%9A"
                        }
-                   ]
+                   ],
+        "district":  "安曇野市"
     },
     {
         "id":  7,
@@ -302,7 +308,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  8,
@@ -336,7 +343,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  9,
@@ -374,7 +382,8 @@ window.INITIAL_POSTS = [
                            "address":  "日本京都市上京區西陣ろおじ（浄福寺西1路地）",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=SHU%20HA%20RI%20KYOTO%20%E6%97%A5%E6%9C%AC%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%8A%E4%BA%AC%E5%8D%80%E8%A5%BF%E9%99%A3%E3%82%8D%E3%81%8A%E3%81%98%EF%BC%88%E6%B5%84%E7%A6%8F%E5%AF%BA%E8%A5%BF1%E8%B7%AF%E5%9C%B0%EF%BC%89"
                        }
-                   ]
+                   ],
+        "district":  "上京區・西陣"
     },
     {
         "id":  10,
@@ -409,7 +418,8 @@ window.INITIAL_POSTS = [
                            "address":  "台灣台南市",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%B0%8F%E4%BB%99%E5%B3%B6%20%E6%BC%A2%E6%96%B9%E8%8C%B6%E9%A3%B2%20%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8D%97%E5%B8%82"
                        }
-                   ]
+                   ],
+        "district":  "台南市區"
     },
     {
         "id":  11,
@@ -458,7 +468,8 @@ window.INITIAL_POSTS = [
                            "address":  "東京都千代田區神田小川町",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=The%20Sun%20%E6%BB%91%E9%9B%AA%E7%94%A8%E5%93%81%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8D%80%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA"
                        }
-                   ]
+                   ],
+        "district":  "千代田區・御茶水"
     },
     {
         "id":  12,
@@ -492,7 +503,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  13,
@@ -526,7 +538,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  14,
@@ -589,7 +602,8 @@ window.INITIAL_POSTS = [
                            "address":  "日本山梨縣富士河口湖町大石",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%A4%A7%E7%9F%B3%E5%85%AC%E5%9C%92%20%E6%97%A5%E6%9C%AC%E5%B1%B1%E6%A2%A8%E7%B8%A3%E5%AF%8C%E5%A3%AB%E6%B2%B3%E5%8F%A3%E6%B9%96%E7%94%BA%E5%A4%A7%E7%9F%B3"
                        }
-                   ]
+                   ],
+        "district":  "河口湖・富士吉田"
     },
     {
         "id":  15,
@@ -623,7 +637,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  16,
@@ -661,7 +676,8 @@ window.INITIAL_POSTS = [
                            "address":  "鳥取車站前",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E7%94%98%E5%91%B3%E5%B1%8B%20(AmamiYa)%20%E9%B3%A5%E5%8F%96%E7%AB%99%E5%89%8D%E5%92%8C%E8%8F%93%E5%AD%90%E8%80%81%E5%BA%97%20%E9%B3%A5%E5%8F%96%E8%BB%8A%E7%AB%99%E5%89%8D"
                        }
-                   ]
+                   ],
+        "district":  "鳥取站前"
     },
     {
         "id":  17,
@@ -697,7 +713,8 @@ window.INITIAL_POSTS = [
                            "address":  "新北市板橋區裕民街27號",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E9%98%BF%E5%8E%9F%E7%94%9F%E9%AD%9A%E7%89%87%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E8%A3%95%E6%B0%91%E8%A1%9727%E8%99%9F"
                        }
-                   ]
+                   ],
+        "district":  "板橋區"
     },
     {
         "id":  18,
@@ -735,7 +752,8 @@ window.INITIAL_POSTS = [
                            "address":  "台北市松山區民生社區",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E3%83%88%E3%83%AA%E3%82%A2%E3%82%A8%E3%82%BA%20%E5%8F%B0%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E6%B0%91%E7%94%9F%E7%A4%BE%E5%8D%80"
                        }
-                   ]
+                   ],
+        "district":  "松山區・民生社區"
     },
     {
         "id":  19,
@@ -798,7 +816,8 @@ window.INITIAL_POSTS = [
                            "address":  "雷鳥莊",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E9%9B%B7%E9%B3%A5%E8%8E%8A"
                        }
-                   ]
+                   ],
+        "district":  "立山町・室堂"
     },
     {
         "id":  20,
@@ -830,7 +849,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  21,
@@ -867,7 +887,8 @@ window.INITIAL_POSTS = [
                            "address":  "義大利多洛米蒂 (Dolomites)，海拔 2,734 m",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=Santnerpassh%C3%BCtte%20%E7%BE%A9%E5%A4%A7%E5%88%A9%E5%A4%9A%E6%B4%9B%E7%B1%B3%E8%92%82%20(Dolomites)%EF%BC%8C%E6%B5%B7%E6%8B%94%202%2C734%20m"
                        }
-                   ]
+                   ],
+        "district":  "Catinaccio 山區"
     },
     {
         "id":  22,
@@ -904,7 +925,8 @@ window.INITIAL_POSTS = [
                            "address":  "日本岐阜縣飛驒市",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E3%83%AC%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%86%E3%83%B3%E3%83%90%E3%82%A4%E3%82%AF%20Gattan%20Go!!%20%E6%97%A5%E6%9C%AC%E5%B2%90%E9%98%9C%E7%B8%A3%E9%A3%9B%E9%A9%92%E5%B8%82"
                        }
-                   ]
+                   ],
+        "district":  "飛驒市・神岡町"
     },
     {
         "id":  23,
@@ -942,7 +964,8 @@ window.INITIAL_POSTS = [
                            "address":  "新北市三重區溪尾街360號",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E9%BA%93%E6%97%A5%E5%BC%8F%E5%88%A8%E5%86%B0%E5%B0%88%E9%96%80%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E9%87%8D%E5%8D%80%E6%BA%AA%E5%B0%BE%E8%A1%97360%E8%99%9F"
                        }
-                   ]
+                   ],
+        "district":  "三重區"
     },
     {
         "id":  24,
@@ -980,7 +1003,8 @@ window.INITIAL_POSTS = [
                            "address":  "京都河原町附近（祇園四条往愛電王的路上）",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E3%81%A8%E3%82%8D%E3%82%8A%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%82%8F%E3%82%89%E3%81%B3%E3%82%82%E3%81%A1%20%E4%BA%AC%E9%83%BD%E6%B2%B3%E5%8E%9F%E7%94%BA%E9%99%84%E8%BF%91%EF%BC%88%E7%A5%87%E5%9C%92%E5%9B%9B%E6%9D%A1%E5%BE%80%E6%84%9B%E9%9B%BB%E7%8E%8B%E7%9A%84%E8%B7%AF%E4%B8%8A%EF%BC%89"
                        }
-                   ]
+                   ],
+        "district":  "中京區・河原町"
     },
     {
         "id":  25,
@@ -1010,7 +1034,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  26,
@@ -1047,7 +1072,8 @@ window.INITIAL_POSTS = [
                            "address":  "日本宮城縣登米市",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E7%99%BB%E7%B1%B3%E7%A5%9E%E7%A4%BE%20%E6%97%A5%E6%9C%AC%E5%AE%AE%E5%9F%8E%E7%B8%A3%E7%99%BB%E7%B1%B3%E5%B8%82"
                        }
-                   ]
+                   ],
+        "district":  "登米市"
     },
     {
         "id":  27,
@@ -1077,7 +1103,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  ""
     },
     {
         "id":  28,
@@ -1110,7 +1137,8 @@ window.INITIAL_POSTS = [
                      ],
         "places":  [
 
-                   ]
+                   ],
+        "district":  "京都市區"
     },
     {
         "id":  29,
@@ -1145,7 +1173,8 @@ window.INITIAL_POSTS = [
                            "address":  "東京都豐島區東池袋 1-27-5",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=yellow%20%E6%B1%A0%E8%A2%8B%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%B1%90%E5%B3%B6%E5%8D%80%E6%9D%B1%E6%B1%A0%E8%A2%8B%201-27-5"
                        }
-                   ]
+                   ],
+        "district":  "豐島區・池袋"
     },
     {
         "id":  30,
@@ -1214,7 +1243,8 @@ window.INITIAL_POSTS = [
                            "address":  "台北市北投區幽雅路30號",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%8C%97%E6%8A%95%E9%BA%97%E7%A6%A7%E6%BA%AB%E6%B3%89%E9%85%92%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E5%B9%BD%E9%9B%85%E8%B7%AF30%E8%99%9F"
                        }
-                   ]
+                   ],
+        "district":  "北投・陽明山・礁溪・烏來・金山"
     },
     {
         "id":  31,
@@ -1251,7 +1281,8 @@ window.INITIAL_POSTS = [
                            "address":  "Tokyo, Minato City, Kita-Aoyama, 3 Chome−9−9 1F",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=tonkatsu.jp%20Omotesando%20Tokyo%2C%20Minato%20City%2C%20Kita-Aoyama%2C%203%20Chome%E2%88%929%E2%88%929%201F"
                        }
-                   ]
+                   ],
+        "district":  "港區・表參道"
     },
     {
         "id":  32,
@@ -1303,7 +1334,8 @@ window.INITIAL_POSTS = [
                            "address":  "銀幔珠抹茶所",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E9%8A%80%E5%B9%94%E7%8F%A0%E6%8A%B9%E8%8C%B6%E6%89%80"
                        }
-                   ]
+                   ],
+        "district":  "嘉義市區"
     },
     {
         "id":  33,
@@ -1337,7 +1369,8 @@ window.INITIAL_POSTS = [
                            "address":  "日本沖繩縣那霸市金城5-10-2",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=AEON%20%E9%82%A3%E9%9C%B8%E5%BA%97%20(%E3%82%A4%E3%82%AA%E3%83%B3%E9%82%A3%E8%A6%87%E5%BA%97)%20%E6%97%A5%E6%9C%AC%E6%B2%96%E7%B9%A9%E7%B8%A3%E9%82%A3%E9%9C%B8%E5%B8%82%E9%87%91%E5%9F%8E5-10-2"
                        }
-                   ]
+                   ],
+        "district":  "那霸市"
     },
     {
         "id":  34,
@@ -1385,6 +1418,7 @@ window.INITIAL_POSTS = [
                            "address":  "日本長野縣長野市",
                            "mapsUrl":  "https://www.google.com/maps/search/?api=1\u0026query=%E5%96%84%E5%85%89%E5%AF%BA%20%E6%97%A5%E6%9C%AC%E9%95%B7%E9%87%8E%E7%B8%A3%E9%95%B7%E9%87%8E%E5%B8%82"
                        }
-                   ]
+                   ],
+        "district":  "長野市・戶隱"
     }
 ];
