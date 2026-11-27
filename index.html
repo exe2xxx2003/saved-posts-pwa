@@ -112,7 +112,8 @@
       <div class="flex items-center justify-between px-5 py-3.5 border-b border-slate-100">
         <div id="modalHeaderMeta" class="flex items-center gap-2 text-xs text-slate-500"></div>
         <div class="flex items-center gap-2">
-          <button id="toggleEditBtn" class="px-3 py-1.5 rounded-lg border border-indigo-200 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 text-xs font-semibold transition">✏️ 編輯標籤與筆記</button>
+          <button id="modalDeleteBtn" class="px-2.5 py-1.5 rounded-lg border border-rose-200 bg-rose-50 text-rose-700 hover:bg-rose-100 text-xs font-semibold transition">🗑️ 刪除</button>
+          <button id="toggleEditBtn" class="px-3 py-1.5 rounded-lg border border-indigo-200 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 text-xs font-semibold transition">✏️ 編輯</button>
           <button id="closeDetailBtn" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center text-sm">✕</button>
         </div>
       </div>
@@ -202,7 +203,8 @@
   <script src="./data.js"></script>
   <script>
     const SHEET_ID = '1nMaoM5NW3zppcaALRp9Rj77VvI6hDIdrD7nse7Gh9I0';
-    const STORAGE_POSTS_KEY = 'postvault_posts_v2';
+    const STORAGE_POSTS_KEY = 'postvault_posts_v3';
+    const STORAGE_DELETED_KEY = 'postvault_deleted_urls_v1';
     const STORAGE_CONFIG_KEY = 'postvault_config_v1';
 
     const CAT_STYLE = {
@@ -248,16 +250,66 @@
     let leafletMap = null;
     let mapMarkersLayer = null;
 
+    function getDeletedUrls() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_DELETED_KEY) || '[]'); } catch { return []; }
+    }
+
     function loadInitialPosts() {
+      const deletedSet = new Set(getDeletedUrls());
       const cached = localStorage.getItem(STORAGE_POSTS_KEY);
       if (cached) {
         try {
           const parsed = JSON.parse(cached);
-          if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            return parsed.filter(p => !deletedSet.has(p.url));
+          }
         } catch {}
       }
-      const seed = (window.INITIAL_POSTS || []).filter(p => p.category !== '失敗' && p.title !== '無法讀取');
-      return seed.map(p => ({ ...p, note: p.note || '' }));
+      const seed = (window.INITIAL_POSTS || []).filter(p => p.category !== '失敗' && p.title !== '無法讀取' && !deletedSet.has(p.url));
+      return seed.map(p => ({ ...p, district: p.district || '', note: p.note || '' }));
+    }
+
+    function formatLocBadge(p) {
+      if (p.city && p.district) return `${p.city} · ${p.district}`;
+      return p.city || p.district || '';
+    }
+
+    async function deletePostById(id) {
+      const p = posts.find(x => x.id === id);
+      if (!p) return;
+      const ok = confirm(`確定要刪除「${p.title}」這張卡片嗎？` + (config.gasUrl ? '\n（將同步從 Google Sheets 試算表中刪除該列）' : ''));
+      if (!ok) return;
+
+      posts = posts.filter(x => x.id !== id);
+      if (p.url) {
+        const delList = getDeletedUrls();
+        if (!delList.includes(p.url)) {
+          delList.push(p.url);
+          localStorage.setItem(STORAGE_DELETED_KEY, JSON.stringify(delList));
+        }
+      }
+      savePostsCache();
+      document.getElementById('detailModal').classList.add('hidden');
+      render();
+
+      if (config.gasUrl) {
+        try {
+          await fetch(config.gasUrl, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify({
+              action: 'delete',
+              id: p.id,
+              rowNumber: p.rowNumber || (p.id + 1),
+              url: p.url,
+              title: p.title
+            })
+          });
+        } catch (err) {
+          console.warn('遠端刪除同步失敗:', err);
+        }
+      }
     }
 
     function savePostsCache() {
@@ -281,7 +333,7 @@
           if (state.city !== 'ALL' && p.city !== state.city) return false;
           if (!q) return true;
           const hay = [
-            p.title, p.conclusion, p.summary, p.category, p.city, p.author, p.source, p.note,
+            p.title, p.conclusion, p.summary, p.category, p.city, p.district, p.address, p.author, p.source, p.note,
             ...(p.keywords || []),
             ...(p.places || []).map(pl => `${pl.name || ''} ${pl.address || ''}`)
           ].join(' ').toLowerCase();
@@ -379,12 +431,13 @@
         grid.className = 'bg-white rounded-2xl border border-slate-200 divide-y divide-slate-100 overflow-hidden shadow-xs';
         grid.innerHTML = filtered.map(p => {
           const meta = getCatMeta(p.category);
+          const locStr = formatLocBadge(p);
           return `
             <div data-id="${p.id}" class="post-card-item p-3.5 sm:px-5 hover:bg-slate-50 cursor-pointer flex items-start justify-between gap-4 transition">
               <div class="space-y-1 min-w-0 flex-1">
                 <div class="flex items-center gap-2 flex-wrap">
                   <span class="px-2 py-0.5 rounded-md border text-[11px] font-semibold ${meta.badge}">${meta.icon} ${esc(p.category)}</span>
-                  ${p.city ? `<span class="text-xs font-medium text-slate-600">📍 ${esc(p.city)}</span>` : ''}
+                  ${locStr ? `<span class="text-xs font-medium text-slate-600">📍 ${esc(locStr)}</span>` : ''}
                   <span class="text-xs font-semibold text-slate-900 truncate">${esc(p.title)}</span>
                 </div>
                 ${p.conclusion ? `<p class="text-xs text-slate-600 line-clamp-1">💡 ${esc(p.conclusion)}</p>` : ''}
@@ -393,6 +446,7 @@
               <div class="flex items-center gap-2 shrink-0 text-xs text-slate-400">
                 ${p.places?.length ? `<span class="text-indigo-600 font-medium">🗺️ ${p.places.length}</span>` : ''}
                 <span>${esc(p.source)}</span>
+                <button type="button" data-del-id="${p.id}" title="刪除此卡片" class="card-del-btn ml-1 px-2 py-1 rounded-lg text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition">🗑️</button>
               </div>
             </div>`;
         }).join('');
@@ -400,6 +454,7 @@
         grid.className = 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4';
         grid.innerHTML = filtered.map(p => {
           const meta = getCatMeta(p.category);
+          const locStr = formatLocBadge(p);
           const cover = p.driveId
             ? `https://drive.google.com/thumbnail?id=${encodeURIComponent(p.driveId)}&sz=w800`
             : (p.coverUrl || '');
@@ -410,11 +465,14 @@
                 <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/15 to-transparent"></div>
                 <div class="absolute top-3 left-3 right-3 flex items-center justify-between gap-2">
                   <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-white/95 text-slate-900 shadow-xs">${meta.icon} ${esc(p.category)}</span>
-                  <span class="px-2 py-0.5 rounded-full text-[11px] font-medium bg-black/55 text-white backdrop-blur-xs">${esc(p.source)}</span>
+                  <div class="flex items-center gap-1.5">
+                    <span class="px-2 py-0.5 rounded-full text-[11px] font-medium bg-black/55 text-white backdrop-blur-xs">${esc(p.source)}</span>
+                    <button type="button" data-del-id="${p.id}" title="刪除此貼文" class="card-del-btn w-7 h-7 rounded-full bg-black/55 hover:bg-rose-600 text-white flex items-center justify-center text-xs backdrop-blur-xs transition">🗑️</button>
+                  </div>
                 </div>
-                <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white text-xs">
-                  <span class="font-medium">${p.city ? `📍 ${esc(p.city)}` : (p.author ? esc(p.author) : '')}</span>
-                  ${p.places?.length ? `<span class="px-2 py-0.5 rounded-full bg-indigo-600/90 text-[11px] font-medium">🗺️ ${p.places.length} 個地點</span>` : ''}
+                <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white text-xs gap-2">
+                  <span class="font-medium truncate">${locStr ? `📍 ${esc(locStr)}` : (p.author ? esc(p.author) : '')}</span>
+                  ${p.places?.length ? `<span class="shrink-0 px-2 py-0.5 rounded-full bg-indigo-600/90 text-[11px] font-medium">🗺️ ${p.places.length} 個地點</span>` : ''}
                 </div>
               </div>
 
@@ -443,6 +501,13 @@
             </article>`;
         }).join('');
       }
+
+      grid.querySelectorAll('.card-del-btn').forEach(btn => {
+        btn.addEventListener('click', e => {
+          e.stopPropagation();
+          deletePostById(Number(btn.dataset.delId));
+        });
+      });
 
       grid.querySelectorAll('.post-card-item').forEach(el => {
         el.addEventListener('click', () => openDetailModal(Number(el.dataset.id)));
@@ -561,12 +626,13 @@
       const p = posts.find(x => x.id === state.activePostId);
       if (!p) return;
       const meta = getCatMeta(p.category);
+      const locStr = formatLocBadge(p);
       document.getElementById('modalHeaderMeta').innerHTML = `
         <span class="px-2 py-0.5 rounded-md border font-semibold ${meta.badge}">${meta.icon} ${esc(p.category)}</span>
-        ${p.city ? `<span>📍 ${esc(p.city)}</span>` : ''}
+        ${locStr ? `<span>📍 ${esc(locStr)}</span>` : ''}
         ${p.time ? `<span>· ${esc(p.time)}</span>` : ''}
       `;
-      document.getElementById('toggleEditBtn').textContent = state.isEditing ? '⬅ 返回檢視' : '✏️ 編輯標籤與筆記';
+      document.getElementById('toggleEditBtn').textContent = state.isEditing ? '⬅ 返回' : '✏️ 編輯';
 
       const bodyEl = document.getElementById('modalBody');
       if (state.isEditing) {
@@ -576,14 +642,18 @@
               <label class="block text-xs font-semibold text-slate-700 mb-1">貼文主旨</label>
               <input id="editTitle" type="text" value="${esc(p.title)}" class="w-full rounded-xl border border-slate-200 px-3.5 py-2 text-sm focus:outline-none focus:border-indigo-500" />
             </div>
-            <div class="grid grid-cols-2 gap-3">
+            <div class="grid grid-cols-3 gap-2.5">
               <div>
                 <label class="block text-xs font-semibold text-slate-700 mb-1">主題標籤</label>
                 <input id="editCategory" list="categoryOptions" value="${esc(p.category)}" class="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500" />
               </div>
               <div>
                 <label class="block text-xs font-semibold text-slate-700 mb-1">城市</label>
-                <input id="editCity" type="text" value="${esc(p.city || '')}" placeholder="例如：京都、台北" class="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500" />
+                <input id="editCity" type="text" value="${esc(p.city || '')}" placeholder="東京、台北" class="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 mb-1">區域</label>
+                <input id="editDistrict" type="text" value="${esc(p.district || '')}" placeholder="表參道、板橋區" class="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500" />
               </div>
             </div>
             <div>
@@ -606,6 +676,7 @@
           p.title = document.getElementById('editTitle').value.trim() || p.title;
           p.category = document.getElementById('editCategory').value.trim() || '未分類';
           p.city = document.getElementById('editCity').value.trim();
+          p.district = document.getElementById('editDistrict').value.trim();
           p.keywords = document.getElementById('editKeywords').value.split(/[,，、]/).map(s => s.trim()).filter(Boolean);
           p.note = document.getElementById('editNote').value.trim();
           savePostsCache();
@@ -626,9 +697,11 @@
                   action: 'update',
                   id: p.id,
                   rowNumber: p.rowNumber || (p.id + 1),
+                  url: p.url,
                   title: p.title,
                   category: p.category,
                   city: p.city,
+                  district: p.district,
                   keywords: p.keywords,
                   note: p.note
                 })
@@ -905,6 +978,9 @@ ${md.slice(0, 4500)}`;
     document.getElementById('closeDetailBtn').addEventListener('click', () => {
       document.getElementById('detailModal').classList.add('hidden');
     });
+    document.getElementById('modalDeleteBtn').addEventListener('click', () => {
+      if (state.activePostId != null) deletePostById(state.activePostId);
+    });
     document.getElementById('toggleEditBtn').addEventListener('click', () => {
       state.isEditing = !state.isEditing;
       renderDetailModalContent();
@@ -932,6 +1008,7 @@ ${md.slice(0, 4500)}`;
     document.getElementById('resetCacheBtn').addEventListener('click', () => {
       if (confirm('確定要將本機快取重置回試算表初始快照嗎？')) {
         localStorage.removeItem(STORAGE_POSTS_KEY);
+        localStorage.removeItem(STORAGE_DELETED_KEY);
         posts = loadInitialPosts();
         render();
         document.getElementById('settingsModal').classList.add('hidden');
